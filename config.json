@@ -1,0 +1,11 @@
+{
+    "etf_targets": [
+        {"code": "0050", "firm": "yuanta", "enabled": true},
+        {"code": "0051", "firm": "yuanta", "enabled": true},
+        {"code": "0056", "firm": "yuanta", "enabled": true},
+        {"code": "00713", "firm": "yuanta", "enabled": true},
+        {"code": "00940", "firm": "yuanta", "enabled": true},
+        {"code": "009802", "firm": "fubon", "enabled": false},
+        {"code": "00878", "firm": "cathay", "enabled": false}
+    ]
+}
