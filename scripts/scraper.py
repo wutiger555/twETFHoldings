@@ -33,12 +33,8 @@ def get_selenium_driver():
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    try:
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
-    except ValueError:
-        service = Service()
-        driver = webdriver.Chrome(service=service, options=options)
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
     return driver
 
 class BaseScraper:
@@ -57,23 +53,8 @@ class YuantaScraper(BaseScraper):
         
         driver.get(etf_url)
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "mainBox")))
-
-        try:
-            popup = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'outsidePop')))
-            driver.execute_script("arguments[0].style.display='none';", popup)
-        except Exception:
-            pass
-
-        try:
-            more_button = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.CLASS_NAME, 'moreBtn')))
-            driver.execute_script("arguments[0].click();", more_button)
-            time.sleep(2)
-        except Exception:
-            pass
-
         soup = BeautifulSoup(driver.page_source, 'lxml')
-        etf_name_tag = soup.select_one("h2[data-v-f4409290] > span[data-v-f4409290]")
-        etf_name = etf_name_tag.text.strip() if etf_name_tag else f"ETF {self.etf_code}"
+        etf_name = soup.title.string.split("-")[0].strip()
 
         stock_table_container = next((s for s in soup.find_all('div', attrs={'data-v-818b5120': True}) if (t := s.find('h3')) and '基金權重-股票' in t.text), None)
 

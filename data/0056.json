@@ -1,305 +1,35 @@
 {
-    "last_updated_utc": "2025-10-16T17:22:35.991361+00:00",
+    "last_updated_utc": "2025-10-18T13:44:02.258811+00:00",
     "holdings": [
         {
             "code": "2357",
             "name": "華碩",
             "shares": 35108144,
-            "weight": 4.68
+            "weight": 4.69
         },
         {
             "code": "2317",
             "name": "鴻海",
             "shares": 104272466,
-            "weight": 4.52
+            "weight": 4.61
         },
         {
             "code": "2382",
             "name": "廣達",
             "shares": 77539380,
-            "weight": 4.4
+            "weight": 4.36
         },
         {
             "code": "3711",
             "name": "日月光投控",
             "shares": 113275278,
-            "weight": 4.22
+            "weight": 4.33
         },
         {
             "code": "2891",
             "name": "中信金",
             "shares": 475984558,
-            "weight": 3.94
-        },
-        {
-            "code": "2301",
-            "name": "光寶科",
-            "shares": 118796701,
-            "weight": 3.9
-        },
-        {
-            "code": "3231",
-            "name": "緯創",
-            "shares": 142801702,
-            "weight": 3.87
-        },
-        {
-            "code": "2454",
-            "name": "聯發科",
-            "shares": 13935516,
-            "weight": 3.6
-        },
-        {
-            "code": "2885",
-            "name": "元大金",
-            "shares": 493612836,
-            "weight": 3.31
-        },
-        {
-            "code": "2303",
-            "name": "聯電",
-            "shares": 373560225,
-            "weight": 3.26
-        },
-        {
-            "code": "2880",
-            "name": "華南金",
-            "shares": 562004040,
-            "weight": 3.26
-        },
-        {
-            "code": "1216",
-            "name": "統一",
-            "shares": 208878628,
-            "weight": 3.15
-        },
-        {
-            "code": "2886",
-            "name": "兆豐金",
-            "shares": 363539299,
-            "weight": 2.96
-        },
-        {
-            "code": "2379",
-            "name": "瑞昱",
-            "shares": 26200694,
-            "weight": 2.73
-        },
-        {
-            "code": "2890",
-            "name": "永豐金",
-            "shares": 511206292,
-            "weight": 2.58
-        },
-        {
-            "code": "2603",
-            "name": "長榮",
-            "shares": 71108809,
-            "weight": 2.57
-        },
-        {
-            "code": "3034",
-            "name": "聯詠",
-            "shares": 29651229,
-            "weight": 2.37
-        },
-        {
-            "code": "1504",
-            "name": "東元",
-            "shares": 105945052,
-            "weight": 2.29
-        },
-        {
-            "code": "2449",
-            "name": "京元電子",
-            "shares": 61673052,
-            "weight": 2.17
-        },
-        {
-            "code": "2618",
-            "name": "長榮航",
-            "shares": 276245063,
-            "weight": 2.04
-        },
-        {
-            "code": "2376",
-            "name": "技嘉",
-            "shares": 34376036,
-            "weight": 1.89
-        },
-        {
-            "code": "5876",
-            "name": "上海商銀",
-            "shares": 233867175,
-            "weight": 1.86
-        },
-        {
-            "code": "4938",
-            "name": "和碩",
-            "shares": 126546108,
-            "weight": 1.77
-        },
-        {
-            "code": "2883",
-            "name": "凱基金",
-            "shares": 538034400,
-            "weight": 1.65
-        },
-        {
-            "code": "3044",
-            "name": "健鼎",
-            "shares": 25051904,
-            "weight": 1.56
-        },
-        {
-            "code": "3036",
-            "name": "文曄",
-            "shares": 57526794,
-            "weight": 1.54
-        },
-        {
-            "code": "2356",
-            "name": "英業達",
-            "shares": 172421424,
-            "weight": 1.47
-        },
-        {
-            "code": "2324",
-            "name": "仁寶",
-            "shares": 218272443,
-            "weight": 1.35
-        },
-        {
-            "code": "4958",
-            "name": "臻鼎-KY",
-            "shares": 44647636,
-            "weight": 1.32
-        },
-        {
-            "code": "1102",
-            "name": "亞泥",
-            "shares": 170343451,
-            "weight": 1.21
-        },
-        {
-            "code": "2105",
-            "name": "正新",
-            "shares": 176714127,
-            "weight": 1.18
-        },
-        {
-            "code": "6239",
-            "name": "力成",
-            "shares": 36323538,
-            "weight": 1.1
-        },
-        {
-            "code": "2347",
-            "name": "聯強",
-            "shares": 87618555,
-            "weight": 1.01
-        },
-        {
-            "code": "2385",
-            "name": "群光",
-            "shares": 38241653,
-            "weight": 0.97
-        },
-        {
-            "code": "3702",
-            "name": "大聯大",
-            "shares": 76999171,
-            "weight": 0.95
-        },
-        {
-            "code": "2353",
-            "name": "宏碁",
-            "shares": 149585178,
-            "weight": 0.89
-        },
-        {
-            "code": "3005",
-            "name": "神基",
-            "shares": 32805804,
-            "weight": 0.89
-        },
-        {
-            "code": "2377",
-            "name": "微星",
-            "shares": 41116587,
-            "weight": 0.88
-        },
-        {
-            "code": "2887",
-            "name": "台新新光金",
-            "shares": 224494187,
-            "weight": 0.86
-        },
-        {
-            "code": "2027",
-            "name": "大成鋼",
-            "shares": 112563130,
-            "weight": 0.85
-        },
-        {
-            "code": "2474",
-            "name": "可成",
-            "shares": 24532106,
-            "weight": 0.85
-        },
-        {
-            "code": "1477",
-            "name": "聚陽",
-            "shares": 12929169,
-            "weight": 0.72
-        },
-        {
-            "code": "9904",
-            "name": "寶成",
-            "shares": 109901142,
-            "weight": 0.62
-        },
-        {
-            "code": "6176",
-            "name": "瑞儀",
-            "shares": 22361694,
-            "weight": 0.58
-        },
-        {
-            "code": "6285",
-            "name": "啟碁",
-            "shares": 24850777,
-            "weight": 0.58
-        },
-        {
-            "code": "3023",
-            "name": "信邦",
-            "shares": 12682989,
-            "weight": 0.56
-        },
-        {
-            "code": "1319",
-            "name": "東陽",
-            "shares": 28810846,
-            "weight": 0.51
-        },
-        {
-            "code": "5871",
-            "name": "中租-KY",
-            "shares": 24965357,
-            "weight": 0.51
-        },
-        {
-            "code": "2006",
-            "name": "東和鋼鐵",
-            "shares": 35934161,
-            "weight": 0.44
-        },
-        {
-            "code": "9941",
-            "name": "裕融",
-            "shares": 17478189,
-            "weight": 0.34
+            "weight": 3.95
         }
     ]
 }
