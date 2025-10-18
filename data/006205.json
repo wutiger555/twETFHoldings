@@ -1,0 +1,1181 @@
+{
+    "last_updated_utc": "2025-10-18T16:54:15.319383+00:00",
+    "holdings": [
+        {
+            "asset_type": "stock",
+            "code": "600519 CH",
+            "name": "貴州茅臺",
+            "shares": 33816,
+            "weight": 4.6061
+        },
+        {
+            "asset_type": "stock",
+            "code": "601899 CH",
+            "name": "紫金礦業",
+            "shares": 1442135,
+            "weight": 4.0731
+        },
+        {
+            "asset_type": "stock",
+            "code": "600276 CH",
+            "name": "恒瑞醫藥",
+            "shares": 480385,
+            "weight": 2.9268
+        },
+        {
+            "asset_type": "stock",
+            "code": "601318 CH",
+            "name": "中國平安",
+            "shares": 491576,
+            "weight": 2.6364
+        },
+        {
+            "asset_type": "stock",
+            "code": "603259 CH",
+            "name": "藥明康德",
+            "shares": 268628,
+            "weight": 2.4291
+        },
+        {
+            "asset_type": "stock",
+            "code": "688256 CH",
+            "name": "寒武紀",
+            "shares": 18672,
+            "weight": 2.1812
+        },
+        {
+            "asset_type": "stock",
+            "code": "600036 CH",
+            "name": "招商銀行",
+            "shares": 541411,
+            "weight": 2.1077
+        },
+        {
+            "asset_type": "stock",
+            "code": "601138 CH",
+            "name": "工業富聯",
+            "shares": 359700,
+            "weight": 2.0201
+        },
+        {
+            "asset_type": "stock",
+            "code": "600900 CH",
+            "name": "長江電力",
+            "shares": 752330,
+            "weight": 1.9801
+        },
+        {
+            "asset_type": "stock",
+            "code": "688041 CH",
+            "name": "海光信息技術股份有限公司",
+            "shares": 84000,
+            "weight": 1.7951
+        },
+        {
+            "asset_type": "stock",
+            "code": "601166 CH",
+            "name": "興業銀行",
+            "shares": 726998,
+            "weight": 1.3738
+        },
+        {
+            "asset_type": "stock",
+            "code": "688008 CH",
+            "name": "瀾起科技",
+            "shares": 103672,
+            "weight": 1.3389
+        },
+        {
+            "asset_type": "stock",
+            "code": "601816 CH",
+            "name": "京滬高鐵",
+            "shares": 2706500,
+            "weight": 1.307
+        },
+        {
+            "asset_type": "stock",
+            "code": "600030 CH",
+            "name": "中信証券",
+            "shares": 445814,
+            "weight": 1.2142
+        },
+        {
+            "asset_type": "stock",
+            "code": "601127 CH",
+            "name": "賽力斯集團股份有限公司",
+            "shares": 83200,
+            "weight": 1.2076
+        },
+        {
+            "asset_type": "stock",
+            "code": "600031 CH",
+            "name": "三一重工",
+            "shares": 546855,
+            "weight": 1.1517
+        },
+        {
+            "asset_type": "stock",
+            "code": "601398 CH",
+            "name": "工商銀行",
+            "shares": 1600076,
+            "weight": 1.1416
+        },
+        {
+            "asset_type": "stock",
+            "code": "603986 CH",
+            "name": "兆易創新",
+            "shares": 60344,
+            "weight": 1.1363
+        },
+        {
+            "asset_type": "stock",
+            "code": "600048 CH",
+            "name": "保利發展",
+            "shares": 1540802,
+            "weight": 1.1177
+        },
+        {
+            "asset_type": "stock",
+            "code": "600111 CH",
+            "name": "北方稀土",
+            "shares": 221641,
+            "weight": 1.0995
+        },
+        {
+            "asset_type": "stock",
+            "code": "601012 CH",
+            "name": "隆基綠能科技股份有限公司",
+            "shares": 558711,
+            "weight": 1.0304
+        },
+        {
+            "asset_type": "stock",
+            "code": "601668 CH",
+            "name": "中國建築",
+            "shares": 1904116,
+            "weight": 0.9963
+        },
+        {
+            "asset_type": "stock",
+            "code": "601288 CH",
+            "name": "農業銀行",
+            "shares": 1396419,
+            "weight": 0.9961
+        },
+        {
+            "asset_type": "stock",
+            "code": "688012 CH",
+            "name": "中微公司",
+            "shares": 39800,
+            "weight": 0.9758
+        },
+        {
+            "asset_type": "stock",
+            "code": "600660 CH",
+            "name": "福耀玻璃",
+            "shares": 163116,
+            "weight": 0.969
+        },
+        {
+            "asset_type": "stock",
+            "code": "600309 CH",
+            "name": "萬華化學",
+            "shares": 164975,
+            "weight": 0.9497
+        },
+        {
+            "asset_type": "stock",
+            "code": "603501 CH",
+            "name": "豪威集成電路（集團）股份有限公",
+            "shares": 77235,
+            "weight": 0.92
+        },
+        {
+            "asset_type": "stock",
+            "code": "601211 CH",
+            "name": "國泰君安",
+            "shares": 515944,
+            "weight": 0.9033
+        },
+        {
+            "asset_type": "stock",
+            "code": "600690 CH",
+            "name": "海爾智家",
+            "shares": 381477,
+            "weight": 0.8935
+        },
+        {
+            "asset_type": "stock",
+            "code": "600887 CH",
+            "name": "伊利股份",
+            "shares": 339439,
+            "weight": 0.869
+        },
+        {
+            "asset_type": "stock",
+            "code": "603993 CH",
+            "name": "洛陽鉬業",
+            "shares": 615200,
+            "weight": 0.8662
+        },
+        {
+            "asset_type": "stock",
+            "code": "600050 CH",
+            "name": "中國聯通",
+            "shares": 1621604,
+            "weight": 0.8257
+        },
+        {
+            "asset_type": "stock",
+            "code": "600089 CH",
+            "name": "特變電工",
+            "shares": 465724,
+            "weight": 0.8233
+        },
+        {
+            "asset_type": "stock",
+            "code": "601766 CH",
+            "name": "中國中車",
+            "shares": 1121500,
+            "weight": 0.8092
+        },
+        {
+            "asset_type": "stock",
+            "code": "600406 CH",
+            "name": "國電南瑞",
+            "shares": 369948,
+            "weight": 0.7969
+        },
+        {
+            "asset_type": "stock",
+            "code": "601328 CH",
+            "name": "交通銀行",
+            "shares": 1166423,
+            "weight": 0.7622
+        },
+        {
+            "asset_type": "stock",
+            "code": "603799 CH",
+            "name": "華友鈷業",
+            "shares": 129354,
+            "weight": 0.744
+        },
+        {
+            "asset_type": "stock",
+            "code": "600418 CH",
+            "name": "江淮汽車",
+            "shares": 160800,
+            "weight": 0.7271
+        },
+        {
+            "asset_type": "stock",
+            "code": "601088 CH",
+            "name": "中國神華",
+            "shares": 184682,
+            "weight": 0.7242
+        },
+        {
+            "asset_type": "stock",
+            "code": "600104 CH",
+            "name": "上汽集團",
+            "shares": 471117,
+            "weight": 0.7209
+        },
+        {
+            "asset_type": "stock",
+            "code": "688271 CH",
+            "name": "上海聯影醫療科技股份有限公司",
+            "shares": 53072,
+            "weight": 0.7147
+        },
+        {
+            "asset_type": "stock",
+            "code": "600919 CH",
+            "name": "江蘇銀行",
+            "shares": 670400,
+            "weight": 0.6898
+        },
+        {
+            "asset_type": "stock",
+            "code": "601888 CH",
+            "name": "中國中免",
+            "shares": 99213,
+            "weight": 0.6501
+        },
+        {
+            "asset_type": "stock",
+            "code": "600000 CH",
+            "name": "浦發銀行",
+            "shares": 513743,
+            "weight": 0.6404
+        },
+        {
+            "asset_type": "stock",
+            "code": "601006 CH",
+            "name": "大秦鐵路",
+            "shares": 1114100,
+            "weight": 0.6153
+        },
+        {
+            "asset_type": "stock",
+            "code": "600547 CH",
+            "name": "山東黃金",
+            "shares": 158066,
+            "weight": 0.5994
+        },
+        {
+            "asset_type": "stock",
+            "code": "600436 CH",
+            "name": "片仔廣",
+            "shares": 32430,
+            "weight": 0.5959
+        },
+        {
+            "asset_type": "stock",
+            "code": "600489 CH",
+            "name": "中金黃金",
+            "shares": 254340,
+            "weight": 0.5943
+        },
+        {
+            "asset_type": "stock",
+            "code": "600219 CH",
+            "name": "南山鋁業",
+            "shares": 1556100,
+            "weight": 0.5915
+        },
+        {
+            "asset_type": "stock",
+            "code": "688111 CH",
+            "name": "金山辦公",
+            "shares": 20947,
+            "weight": 0.5835
+        },
+        {
+            "asset_type": "stock",
+            "code": "600183 CH",
+            "name": "廣東生益科技股份有限公司",
+            "shares": 110100,
+            "weight": 0.5595
+        },
+        {
+            "asset_type": "stock",
+            "code": "600438 CH",
+            "name": "通威股份",
+            "shares": 249107,
+            "weight": 0.5502
+        },
+        {
+            "asset_type": "stock",
+            "code": "601600 CH",
+            "name": "中國鋁業",
+            "shares": 694180,
+            "weight": 0.5502
+        },
+        {
+            "asset_type": "stock",
+            "code": "601689 CH",
+            "name": "拓普集團",
+            "shares": 88130,
+            "weight": 0.5418
+        },
+        {
+            "asset_type": "stock",
+            "code": "601601 CH",
+            "name": "中國太保",
+            "shares": 156347,
+            "weight": 0.5379
+        },
+        {
+            "asset_type": "stock",
+            "code": "600019 CH",
+            "name": "寶鋼股份",
+            "shares": 767740,
+            "weight": 0.5137
+        },
+        {
+            "asset_type": "stock",
+            "code": "600010 CH",
+            "name": "包鋼股份",
+            "shares": 1982750,
+            "weight": 0.5029
+        },
+        {
+            "asset_type": "stock",
+            "code": "601390 CH",
+            "name": "中國中鐵",
+            "shares": 946182,
+            "weight": 0.5022
+        },
+        {
+            "asset_type": "stock",
+            "code": "601857 CH",
+            "name": "中國石油股份",
+            "shares": 633978,
+            "weight": 0.4991
+        },
+        {
+            "asset_type": "stock",
+            "code": "600809 CH",
+            "name": "山西汾酒",
+            "shares": 27180,
+            "weight": 0.4985
+        },
+        {
+            "asset_type": "stock",
+            "code": "600584 CH",
+            "name": "長電科技",
+            "shares": 129751,
+            "weight": 0.4797
+        },
+        {
+            "asset_type": "stock",
+            "code": "601225 CH",
+            "name": "陝西煤業股份有限公司",
+            "shares": 226500,
+            "weight": 0.4761
+        },
+        {
+            "asset_type": "stock",
+            "code": "601688 CH",
+            "name": "HTSC",
+            "shares": 233617,
+            "weight": 0.4716
+        },
+        {
+            "asset_type": "stock",
+            "code": "600585 CH",
+            "name": "海螺水泥",
+            "shares": 210083,
+            "weight": 0.4669
+        },
+        {
+            "asset_type": "stock",
+            "code": "600893 CH",
+            "name": "航發動力",
+            "shares": 122918,
+            "weight": 0.4641
+        },
+        {
+            "asset_type": "stock",
+            "code": "600415 CH",
+            "name": "浙江中國小商品城集團股份有限公",
+            "shares": 252600,
+            "weight": 0.4536
+        },
+        {
+            "asset_type": "stock",
+            "code": "601669 CH",
+            "name": "中國電建",
+            "shares": 794338,
+            "weight": 0.4222
+        },
+        {
+            "asset_type": "stock",
+            "code": "600028 CH",
+            "name": "中國石油化工股份",
+            "shares": 816250,
+            "weight": 0.4132
+        },
+        {
+            "asset_type": "stock",
+            "code": "601100 CH",
+            "name": "恒立液壓",
+            "shares": 49297,
+            "weight": 0.412
+        },
+        {
+            "asset_type": "stock",
+            "code": "601985 CH",
+            "name": "中國核電",
+            "shares": 484666,
+            "weight": 0.4101
+        },
+        {
+            "asset_type": "stock",
+            "code": "600016 CH",
+            "name": "民生銀行",
+            "shares": 1086375,
+            "weight": 0.4077
+        },
+        {
+            "asset_type": "stock",
+            "code": "600570 CH",
+            "name": "恒生電子",
+            "shares": 136995,
+            "weight": 0.3993
+        },
+        {
+            "asset_type": "stock",
+            "code": "600160 CH",
+            "name": "巨化股份",
+            "shares": 118360,
+            "weight": 0.391
+        },
+        {
+            "asset_type": "stock",
+            "code": "601229 CH",
+            "name": "上海銀行",
+            "shares": 435100,
+            "weight": 0.3864
+        },
+        {
+            "asset_type": "stock",
+            "code": "600196 CH",
+            "name": "復星醫藥",
+            "shares": 136600,
+            "weight": 0.3672
+        },
+        {
+            "asset_type": "stock",
+            "code": "601169 CH",
+            "name": "北京銀行",
+            "shares": 675576,
+            "weight": 0.3624
+        },
+        {
+            "asset_type": "stock",
+            "code": "601009 CH",
+            "name": "南京銀行股份有限公司",
+            "shares": 324463,
+            "weight": 0.3546
+        },
+        {
+            "asset_type": "stock",
+            "code": "601058 CH",
+            "name": "賽輪輪胎",
+            "shares": 267700,
+            "weight": 0.3448
+        },
+        {
+            "asset_type": "stock",
+            "code": "688126 CH",
+            "name": "上海硅產業集團股份有限公司",
+            "shares": 149000,
+            "weight": 0.3438
+        },
+        {
+            "asset_type": "stock",
+            "code": "688169 CH",
+            "name": "石頭科技",
+            "shares": 21096,
+            "weight": 0.3416
+        },
+        {
+            "asset_type": "stock",
+            "code": "600926 CH",
+            "name": "杭州銀行",
+            "shares": 222076,
+            "weight": 0.3408
+        },
+        {
+            "asset_type": "stock",
+            "code": "600905 CH",
+            "name": "三峽能源",
+            "shares": 842800,
+            "weight": 0.3392
+        },
+        {
+            "asset_type": "stock",
+            "code": "600009 CH",
+            "name": "上海機場",
+            "shares": 114685,
+            "weight": 0.3362
+        },
+        {
+            "asset_type": "stock",
+            "code": "600066 CH",
+            "name": "宇通客車股份有限公司",
+            "shares": 122400,
+            "weight": 0.332
+        },
+        {
+            "asset_type": "stock",
+            "code": "603288 CH",
+            "name": "海天味業",
+            "shares": 89594,
+            "weight": 0.3276
+        },
+        {
+            "asset_type": "stock",
+            "code": "601988 CH",
+            "name": "中國銀行",
+            "shares": 653687,
+            "weight": 0.3268
+        },
+        {
+            "asset_type": "stock",
+            "code": "605499 CH",
+            "name": "東鵬飲料",
+            "shares": 11400,
+            "weight": 0.3234
+        },
+        {
+            "asset_type": "stock",
+            "code": "601939 CH",
+            "name": "建設銀行",
+            "shares": 370694,
+            "weight": 0.3198
+        },
+        {
+            "asset_type": "stock",
+            "code": "600362 CH",
+            "name": "江西銅業股份",
+            "shares": 90900,
+            "weight": 0.3176
+        },
+        {
+            "asset_type": "stock",
+            "code": "600989 CH",
+            "name": "寶豐能源",
+            "shares": 192700,
+            "weight": 0.3052
+        },
+        {
+            "asset_type": "stock",
+            "code": "601360 CH",
+            "name": "三六零",
+            "shares": 316600,
+            "weight": 0.3034
+        },
+        {
+            "asset_type": "stock",
+            "code": "600176 CH",
+            "name": "中國巨石",
+            "shares": 210260,
+            "weight": 0.3004
+        },
+        {
+            "asset_type": "stock",
+            "code": "600426 CH",
+            "name": "華魯恒升",
+            "shares": 130200,
+            "weight": 0.3002
+        },
+        {
+            "asset_type": "stock",
+            "code": "688036 CH",
+            "name": "傳音控股",
+            "shares": 41040,
+            "weight": 0.2943
+        },
+        {
+            "asset_type": "stock",
+            "code": "600741 CH",
+            "name": "華域汽車系統股份有限公司",
+            "shares": 160400,
+            "weight": 0.2929
+        },
+        {
+            "asset_type": "stock",
+            "code": "601628 CH",
+            "name": "中國人壽",
+            "shares": 76275,
+            "weight": 0.2914
+        },
+        {
+            "asset_type": "stock",
+            "code": "688072 CH",
+            "name": "拓荊科技股份有限公司",
+            "shares": 12800,
+            "weight": 0.2895
+        },
+        {
+            "asset_type": "stock",
+            "code": "600346 CH",
+            "name": "恆力石化",
+            "shares": 185000,
+            "weight": 0.2842
+        },
+        {
+            "asset_type": "stock",
+            "code": "688506 CH",
+            "name": "四川百利天恒藥業股份有限公司",
+            "shares": 8600,
+            "weight": 0.2769
+        },
+        {
+            "asset_type": "stock",
+            "code": "601868 CH",
+            "name": "中國能源建設",
+            "shares": 1196000,
+            "weight": 0.2742
+        },
+        {
+            "asset_type": "stock",
+            "code": "601111 CH",
+            "name": "中國國航",
+            "shares": 345551,
+            "weight": 0.2735
+        },
+        {
+            "asset_type": "stock",
+            "code": "601633 CH",
+            "name": "長城汽車",
+            "shares": 126945,
+            "weight": 0.2715
+        },
+        {
+            "asset_type": "stock",
+            "code": "601877 CH",
+            "name": "浙江正泰電器股份有限公司",
+            "shares": 99100,
+            "weight": 0.266
+        },
+        {
+            "asset_type": "stock",
+            "code": "601818 CH",
+            "name": "中國光大銀行",
+            "shares": 811909,
+            "weight": 0.2606
+        },
+        {
+            "asset_type": "stock",
+            "code": "601658 CH",
+            "name": "郵儲銀行",
+            "shares": 482500,
+            "weight": 0.2583
+        },
+        {
+            "asset_type": "stock",
+            "code": "600999 CH",
+            "name": "招商證券",
+            "shares": 162270,
+            "weight": 0.258
+        },
+        {
+            "asset_type": "stock",
+            "code": "600958 CH",
+            "name": "東方證券",
+            "shares": 238832,
+            "weight": 0.2538
+        },
+        {
+            "asset_type": "stock",
+            "code": "600795 CH",
+            "name": "國電電力",
+            "shares": 525600,
+            "weight": 0.2518
+        },
+        {
+            "asset_type": "stock",
+            "code": "600233 CH",
+            "name": "圓通速遞股份有限公司",
+            "shares": 159000,
+            "weight": 0.2455
+        },
+        {
+            "asset_type": "stock",
+            "code": "601872 CH",
+            "name": "招商輪船",
+            "shares": 298000,
+            "weight": 0.2423
+        },
+        {
+            "asset_type": "stock",
+            "code": "601336 CH",
+            "name": "新華保險",
+            "shares": 38183,
+            "weight": 0.2393
+        },
+        {
+            "asset_type": "stock",
+            "code": "688396 CH",
+            "name": "華潤微",
+            "shares": 50000,
+            "weight": 0.2392
+        },
+        {
+            "asset_type": "stock",
+            "code": "600085 CH",
+            "name": "同仁堂",
+            "shares": 73500,
+            "weight": 0.2358
+        },
+        {
+            "asset_type": "stock",
+            "code": "601117 CH",
+            "name": "中國化學",
+            "shares": 337500,
+            "weight": 0.235
+        },
+        {
+            "asset_type": "stock",
+            "code": "603296 CH",
+            "name": "華勤技術股份有限公司",
+            "shares": 27400,
+            "weight": 0.2342
+        },
+        {
+            "asset_type": "stock",
+            "code": "601618 CH",
+            "name": "中國中冶",
+            "shares": 658409,
+            "weight": 0.2286
+        },
+        {
+            "asset_type": "stock",
+            "code": "601021 CH",
+            "name": "春秋航空股份有限公司",
+            "shares": 45200,
+            "weight": 0.2272
+        },
+        {
+            "asset_type": "stock",
+            "code": "605117 CH",
+            "name": "德業股份",
+            "shares": 33382,
+            "weight": 0.2235
+        },
+        {
+            "asset_type": "stock",
+            "code": "601825 CH",
+            "name": "上海農村商業銀行股份有限公司",
+            "shares": 253100,
+            "weight": 0.2099
+        },
+        {
+            "asset_type": "stock",
+            "code": "603392 CH",
+            "name": "萬泰生物",
+            "shares": 40676,
+            "weight": 0.2096
+        },
+        {
+            "asset_type": "stock",
+            "code": "600875 CH",
+            "name": "東方電氣",
+            "shares": 112400,
+            "weight": 0.2076
+        },
+        {
+            "asset_type": "stock",
+            "code": "688599 CH",
+            "name": "天合光能",
+            "shares": 120600,
+            "weight": 0.204
+        },
+        {
+            "asset_type": "stock",
+            "code": "601916 CH",
+            "name": "浙商銀行",
+            "shares": 688500,
+            "weight": 0.1979
+        },
+        {
+            "asset_type": "stock",
+            "code": "600886 CH",
+            "name": "國投電力",
+            "shares": 147800,
+            "weight": 0.1967
+        },
+        {
+            "asset_type": "stock",
+            "code": "600039 CH",
+            "name": "四川路橋",
+            "shares": 240800,
+            "weight": 0.1947
+        },
+        {
+            "asset_type": "stock",
+            "code": "601838 CH",
+            "name": "成都銀行股份有限公司",
+            "shares": 111500,
+            "weight": 0.1932
+        },
+        {
+            "asset_type": "stock",
+            "code": "601377 CH",
+            "name": "興業證券",
+            "shares": 315606,
+            "weight": 0.1906
+        },
+        {
+            "asset_type": "stock",
+            "code": "688223 CH",
+            "name": "晶科能源",
+            "shares": 368600,
+            "weight": 0.1898
+        },
+        {
+            "asset_type": "stock",
+            "code": "688047 CH",
+            "name": "龍芯中科技術股份有限公司",
+            "shares": 14600,
+            "weight": 0.1849
+        },
+        {
+            "asset_type": "stock",
+            "code": "601077 CH",
+            "name": "重慶農村商業銀行股份有限公司",
+            "shares": 270900,
+            "weight": 0.1846
+        },
+        {
+            "asset_type": "stock",
+            "code": "600011 CH",
+            "name": "華能國際電力股份",
+            "shares": 259131,
+            "weight": 0.1814
+        },
+        {
+            "asset_type": "stock",
+            "code": "601995 CH",
+            "name": "中金公司",
+            "shares": 51200,
+            "weight": 0.179
+        },
+        {
+            "asset_type": "stock",
+            "code": "600015 CH",
+            "name": "華夏銀行",
+            "shares": 278800,
+            "weight": 0.1774
+        },
+        {
+            "asset_type": "stock",
+            "code": "601998 CH",
+            "name": "中信銀行",
+            "shares": 231600,
+            "weight": 0.1689
+        },
+        {
+            "asset_type": "stock",
+            "code": "600845 CH",
+            "name": "寶信軟體",
+            "shares": 78100,
+            "weight": 0.1666
+        },
+        {
+            "asset_type": "stock",
+            "code": "601881 CH",
+            "name": "中國銀河",
+            "shares": 99200,
+            "weight": 0.1659
+        },
+        {
+            "asset_type": "stock",
+            "code": "601238 CH",
+            "name": "廣汽集團",
+            "shares": 225344,
+            "weight": 0.1626
+        },
+        {
+            "asset_type": "stock",
+            "code": "600674 CH",
+            "name": "川投能源",
+            "shares": 114700,
+            "weight": 0.1593
+        },
+        {
+            "asset_type": "stock",
+            "code": "688303 CH",
+            "name": "大全能源",
+            "shares": 59400,
+            "weight": 0.1578
+        },
+        {
+            "asset_type": "stock",
+            "code": "601788 CH",
+            "name": "光大證券",
+            "shares": 89200,
+            "weight": 0.1557
+        },
+        {
+            "asset_type": "stock",
+            "code": "601607 CH",
+            "name": "上海醫藥",
+            "shares": 89954,
+            "weight": 0.1528
+        },
+        {
+            "asset_type": "stock",
+            "code": "603369 CH",
+            "name": "今世緣",
+            "shares": 40200,
+            "weight": 0.1489
+        },
+        {
+            "asset_type": "stock",
+            "code": "600188 CH",
+            "name": "兗州煤業",
+            "shares": 104445,
+            "weight": 0.1469
+        },
+        {
+            "asset_type": "stock",
+            "code": "600026 CH",
+            "name": "中遠海能",
+            "shares": 128000,
+            "weight": 0.1451
+        },
+        {
+            "asset_type": "stock",
+            "code": "601901 CH",
+            "name": "方正證券",
+            "shares": 187900,
+            "weight": 0.1419
+        },
+        {
+            "asset_type": "stock",
+            "code": "603260 CH",
+            "name": "合盛矽業",
+            "shares": 31100,
+            "weight": 0.1413
+        },
+        {
+            "asset_type": "stock",
+            "code": "601066 CH",
+            "name": "中信建投証券",
+            "shares": 56625,
+            "weight": 0.1385
+        },
+        {
+            "asset_type": "stock",
+            "code": "600018 CH",
+            "name": "上港集團",
+            "shares": 257700,
+            "weight": 0.1343
+        },
+        {
+            "asset_type": "stock",
+            "code": "601878 CH",
+            "name": "浙商證券",
+            "shares": 125400,
+            "weight": 0.1333
+        },
+        {
+            "asset_type": "stock",
+            "code": "601898 CH",
+            "name": "中煤能源",
+            "shares": 102300,
+            "weight": 0.1272
+        },
+        {
+            "asset_type": "stock",
+            "code": "601018 CH",
+            "name": "寧波港",
+            "shares": 358700,
+            "weight": 0.1269
+        },
+        {
+            "asset_type": "stock",
+            "code": "600600 CH",
+            "name": "青島啤酒股份",
+            "shares": 19151,
+            "weight": 0.1211
+        },
+        {
+            "asset_type": "stock",
+            "code": "600023 CH",
+            "name": "浙能電力",
+            "shares": 247500,
+            "weight": 0.12
+        },
+        {
+            "asset_type": "stock",
+            "code": "688009 CH",
+            "name": "中國鐵路通信信號股份有限公司",
+            "shares": 238400,
+            "weight": 0.118
+        },
+        {
+            "asset_type": "stock",
+            "code": "600027 CH",
+            "name": "華電國際",
+            "shares": 233100,
+            "weight": 0.1145
+        },
+        {
+            "asset_type": "stock",
+            "code": "603195 CH",
+            "name": "公牛集團",
+            "shares": 27420,
+            "weight": 0.1134
+        },
+        {
+            "asset_type": "stock",
+            "code": "601319 CH",
+            "name": "中國人民保險集團",
+            "shares": 139800,
+            "weight": 0.1112
+        },
+        {
+            "asset_type": "stock",
+            "code": "600025 CH",
+            "name": "華能水電",
+            "shares": 106000,
+            "weight": 0.0986
+        },
+        {
+            "asset_type": "stock",
+            "code": "601699 CH",
+            "name": "潞安環能",
+            "shares": 67200,
+            "weight": 0.0965
+        },
+        {
+            "asset_type": "stock",
+            "code": "600803 CH",
+            "name": "新奧股份",
+            "shares": 54800,
+            "weight": 0.0944
+        },
+        {
+            "asset_type": "stock",
+            "code": "601059 CH",
+            "name": "信達證券股份有限公司",
+            "shares": 44300,
+            "weight": 0.0829
+        },
+        {
+            "asset_type": "stock",
+            "code": "600377 CH",
+            "name": "江蘇寧滬高速公路股份有限公司",
+            "shares": 45700,
+            "weight": 0.0575
+        },
+        {
+            "asset_type": "stock",
+            "code": "600350 CH",
+            "name": "山東高速股份有限公司",
+            "shares": 62572,
+            "weight": 0.054
+        },
+        {
+            "asset_type": "stock",
+            "code": "601298 CH",
+            "name": "青島港國際股份有限公司",
+            "shares": 64400,
+            "weight": 0.0522
+        },
+        {
+            "asset_type": "stock",
+            "code": "601136 CH",
+            "name": "首創證券",
+            "shares": 24800,
+            "weight": 0.0507
+        },
+        {
+            "asset_type": "stock",
+            "code": "600236 CH",
+            "name": "廣西桂冠電力股份有限公司",
+            "shares": 64900,
+            "weight": 0.0435
+        },
+        {
+            "asset_type": "stock",
+            "code": "601808 CH",
+            "name": "中海油田服務股份有限公司",
+            "shares": 32900,
+            "weight": 0.0419
+        },
+        {
+            "asset_type": "future",
+            "code": "SFCV5F",
+            "name": "2025/10富時中國A50指數",
+            "shares": 665,
+            "weight": 6.5933
+        }
+    ]
+}

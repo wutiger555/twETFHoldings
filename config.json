@@ -5,7 +5,22 @@
         {"code": "0056", "firm": "yuanta", "enabled": true},
         {"code": "00713", "firm": "yuanta", "enabled": true},
         {"code": "00940", "firm": "yuanta", "enabled": true},
-        {"code": "009802", "firm": "fubon", "enabled": false},
+        {"code": "006208", "firm": "fubon", "enabled": true},
+        {"code": "009802", "firm": "fubon", "enabled": true},
+        {"code": "00652", "firm": "fubon", "enabled": true},
+        {"code": "00709", "firm": "fubon", "enabled": true},
+        {"code": "00700", "firm": "fubon", "enabled": true},
+        {"code": "00892", "firm": "fubon", "enabled": true},
+        {"code": "00662", "firm": "fubon", "enabled": true},
+        {"code": "006205", "firm": "fubon", "enabled": true},
+        {"code": "00645", "firm": "fubon", "enabled": true},
+        {"code": "0057", "firm": "fubon", "enabled": true},
+        {"code": "0052", "firm": "fubon", "enabled": true},
+        {"code": "00900", "firm": "fubon", "enabled": true},
+        {"code": "00675L", "firm": "fubon", "enabled": true},
+        {"code": "00639", "firm": "fubon", "enabled": true},
+        {"code": "00692", "firm": "fubon", "enabled": true},
+        {"code": "00694", "firm": "fubon", "enabled": true},
         {"code": "00878", "firm": "cathay", "enabled": false}
     ]
 }

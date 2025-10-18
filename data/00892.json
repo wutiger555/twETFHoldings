@@ -1,0 +1,222 @@
+{
+    "last_updated_utc": "2025-10-18T16:54:14.993446+00:00",
+    "holdings": [
+        {
+            "asset_type": "stock",
+            "code": "2330",
+            "name": "台積電",
+            "shares": 1081000,
+            "weight": 29.4845
+        },
+        {
+            "asset_type": "stock",
+            "code": "5274",
+            "name": "信驊",
+            "shares": 71800,
+            "weight": 7.5971
+        },
+        {
+            "asset_type": "stock",
+            "code": "6223",
+            "name": "旺矽",
+            "shares": 192000,
+            "weight": 6.6815
+        },
+        {
+            "asset_type": "stock",
+            "code": "3711",
+            "name": "日月光投控",
+            "shares": 1706000,
+            "weight": 6.2897
+        },
+        {
+            "asset_type": "stock",
+            "code": "3443",
+            "name": "創意",
+            "shares": 196000,
+            "weight": 5.5118
+        },
+        {
+            "asset_type": "stock",
+            "code": "2379",
+            "name": "瑞昱",
+            "shares": 436000,
+            "weight": 4.3713
+        },
+        {
+            "asset_type": "stock",
+            "code": "2303",
+            "name": "聯電",
+            "shares": 4968000,
+            "weight": 4.2753
+        },
+        {
+            "asset_type": "stock",
+            "code": "2454",
+            "name": "聯發科",
+            "shares": 161000,
+            "weight": 4.0279
+        },
+        {
+            "asset_type": "stock",
+            "code": "3529",
+            "name": "力旺",
+            "shares": 93000,
+            "weight": 3.8661
+        },
+        {
+            "asset_type": "stock",
+            "code": "3034",
+            "name": "聯詠",
+            "shares": 441000,
+            "weight": 3.3638
+        },
+        {
+            "asset_type": "stock",
+            "code": "6515",
+            "name": "穎崴",
+            "shares": 58000,
+            "weight": 2.6402
+        },
+        {
+            "asset_type": "stock",
+            "code": "5434",
+            "name": "崇越",
+            "shares": 392000,
+            "weight": 2.3854
+        },
+        {
+            "asset_type": "stock",
+            "code": "2458",
+            "name": "義隆",
+            "shares": 676000,
+            "weight": 1.6149
+        },
+        {
+            "asset_type": "stock",
+            "code": "6510",
+            "name": "精測",
+            "shares": 46000,
+            "weight": 1.5229
+        },
+        {
+            "asset_type": "stock",
+            "code": "3450",
+            "name": "聯鈞",
+            "shares": 304000,
+            "weight": 1.4438
+        },
+        {
+            "asset_type": "stock",
+            "code": "1560",
+            "name": "中砂",
+            "shares": 233000,
+            "weight": 1.4375
+        },
+        {
+            "asset_type": "stock",
+            "code": "3131",
+            "name": "弘塑",
+            "shares": 47000,
+            "weight": 1.3703
+        },
+        {
+            "asset_type": "stock",
+            "code": "3227",
+            "name": "原相",
+            "shares": 310000,
+            "weight": 1.3674
+        },
+        {
+            "asset_type": "stock",
+            "code": "6187",
+            "name": "萬潤",
+            "shares": 171000,
+            "weight": 1.211
+        },
+        {
+            "asset_type": "stock",
+            "code": "3413",
+            "name": "京鼎",
+            "shares": 194000,
+            "weight": 1.1732
+        },
+        {
+            "asset_type": "stock",
+            "code": "2455",
+            "name": "全新",
+            "shares": 424000,
+            "weight": 1.1365
+        },
+        {
+            "asset_type": "stock",
+            "code": "8016",
+            "name": "矽創",
+            "shares": 256000,
+            "weight": 1.0112
+        },
+        {
+            "asset_type": "stock",
+            "code": "3374",
+            "name": "精材",
+            "shares": 357000,
+            "weight": 0.9636
+        },
+        {
+            "asset_type": "stock",
+            "code": "3014",
+            "name": "聯陽",
+            "shares": 351000,
+            "weight": 0.8616
+        },
+        {
+            "asset_type": "stock",
+            "code": "6526",
+            "name": "達發",
+            "shares": 84000,
+            "weight": 0.7979
+        },
+        {
+            "asset_type": "stock",
+            "code": "2467",
+            "name": "志聖",
+            "shares": 218000,
+            "weight": 0.7422
+        },
+        {
+            "asset_type": "stock",
+            "code": "3592",
+            "name": "瑞鼎",
+            "shares": 140000,
+            "weight": 0.6649
+        },
+        {
+            "asset_type": "stock",
+            "code": "5314",
+            "name": "世紀*",
+            "shares": 261000,
+            "weight": 0.6603
+        },
+        {
+            "asset_type": "stock",
+            "code": "8081",
+            "name": "致新",
+            "shares": 153000,
+            "weight": 0.6374
+        },
+        {
+            "asset_type": "stock",
+            "code": "4919",
+            "name": "新唐",
+            "shares": 456000,
+            "weight": 0.5326
+        },
+        {
+            "asset_type": "future",
+            "code": "WTEX5F",
+            "name": "2025/11電子指數期貨",
+            "shares": 3,
+            "weight": 0.3664
+        }
+    ]
+}

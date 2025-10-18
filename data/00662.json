@@ -1,0 +1,719 @@
+{
+    "last_updated_utc": "2025-10-18T16:54:15.137797+00:00",
+    "holdings": [
+        {
+            "asset_type": "stock",
+            "code": "NVDA US",
+            "name": "NVIDIA CORP",
+            "shares": 1001387,
+            "weight": 9.5251
+        },
+        {
+            "asset_type": "stock",
+            "code": "MSFT US",
+            "name": "Microsoft Corp",
+            "shares": 306316,
+            "weight": 8.1989
+        },
+        {
+            "asset_type": "stock",
+            "code": "AAPL US",
+            "name": "APPLE INC",
+            "shares": 611563,
+            "weight": 7.9173
+        },
+        {
+            "asset_type": "stock",
+            "code": "AVGO US",
+            "name": "Broadcom Inc",
+            "shares": 320572,
+            "weight": 5.9396
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMZN US",
+            "name": "Amazon.com Inc",
+            "shares": 439494,
+            "weight": 4.9313
+        },
+        {
+            "asset_type": "stock",
+            "code": "TSLA US",
+            "name": "Tesla Inc",
+            "shares": 150198,
+            "weight": 3.3691
+        },
+        {
+            "asset_type": "stock",
+            "code": "META US",
+            "name": "META PLATFORMS INC",
+            "shares": 89382,
+            "weight": 3.3298
+        },
+        {
+            "asset_type": "stock",
+            "code": "GOOGL US",
+            "name": "Alphabet Inc-CL A",
+            "shares": 239715,
+            "weight": 3.1536
+        },
+        {
+            "asset_type": "stock",
+            "code": "GOOG US",
+            "name": "Alphabet Inc-CL C",
+            "shares": 223767,
+            "weight": 2.9487
+        },
+        {
+            "asset_type": "stock",
+            "code": "NFLX US",
+            "name": "Netflix Inc",
+            "shares": 43081,
+            "weight": 2.6677
+        },
+        {
+            "asset_type": "stock",
+            "code": "COST US",
+            "name": "Costco Wholesale Corp",
+            "shares": 44962,
+            "weight": 2.1773
+        },
+        {
+            "asset_type": "stock",
+            "code": "PLTR US",
+            "name": "PALANTIR TECHNOLOGIES INC",
+            "shares": 230577,
+            "weight": 2.1487
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMD US",
+            "name": "ADVANCED MICRO DEVICES",
+            "shares": 164533,
+            "weight": 2.019
+        },
+        {
+            "asset_type": "stock",
+            "code": "CSCO US",
+            "name": "Cisco Systems Inc",
+            "shares": 401487,
+            "weight": 1.4512
+        },
+        {
+            "asset_type": "stock",
+            "code": "TMUS US",
+            "name": "T-Mobile US Inc",
+            "shares": 114101,
+            "weight": 1.3517
+        },
+        {
+            "asset_type": "stock",
+            "code": "MU US",
+            "name": "MICRON TECHNOLOGY INC",
+            "shares": 113463,
+            "weight": 1.2022
+        },
+        {
+            "asset_type": "stock",
+            "code": "PEP US",
+            "name": "PepsiCo Inc",
+            "shares": 138805,
+            "weight": 1.1086
+        },
+        {
+            "asset_type": "stock",
+            "code": "LIN US",
+            "name": "LINDE PLC",
+            "shares": 47541,
+            "weight": 1.1049
+        },
+        {
+            "asset_type": "stock",
+            "code": "SHOP US",
+            "name": "SHOPIFY INC",
+            "shares": 123733,
+            "weight": 1.0135
+        },
+        {
+            "asset_type": "stock",
+            "code": "APP US",
+            "name": "APPLOVIN CORP",
+            "shares": 31190,
+            "weight": 0.9883
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMAT US",
+            "name": "Applied Materials Inc",
+            "shares": 80768,
+            "weight": 0.9622
+        },
+        {
+            "asset_type": "stock",
+            "code": "INTU US",
+            "name": "Intuit Inc",
+            "shares": 28281,
+            "weight": 0.9572
+        },
+        {
+            "asset_type": "stock",
+            "code": "LRCX US",
+            "name": "Lam Research Corp",
+            "shares": 128316,
+            "weight": 0.9557
+        },
+        {
+            "asset_type": "stock",
+            "code": "QCOM US",
+            "name": "QUALCOMM Inc",
+            "shares": 109395,
+            "weight": 0.939
+        },
+        {
+            "asset_type": "stock",
+            "code": "INTC US",
+            "name": "INTEL CORP",
+            "shares": 443765,
+            "weight": 0.8553
+        },
+        {
+            "asset_type": "stock",
+            "code": "BKNG US",
+            "name": "Booking Holdings Inc",
+            "shares": 3286,
+            "weight": 0.8513
+        },
+        {
+            "asset_type": "stock",
+            "code": "TXN US",
+            "name": "Texas Instruments Inc",
+            "shares": 92173,
+            "weight": 0.8462
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMGN US",
+            "name": "Amgen Inc",
+            "shares": 54582,
+            "weight": 0.8447
+        },
+        {
+            "asset_type": "stock",
+            "code": "ISRG US",
+            "name": "Intuitive Surgical Inc",
+            "shares": 36344,
+            "weight": 0.8264
+        },
+        {
+            "asset_type": "stock",
+            "code": "GILD US",
+            "name": "GILEAD SCIENCES INC",
+            "shares": 125800,
+            "weight": 0.7756
+        },
+        {
+            "asset_type": "stock",
+            "code": "KLAC US",
+            "name": "KLA-Tencor Corp",
+            "shares": 13379,
+            "weight": 0.7691
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADBE US",
+            "name": "ADOBE INC",
+            "shares": 43008,
+            "weight": 0.7407
+        },
+        {
+            "asset_type": "stock",
+            "code": "PANW US",
+            "name": "PALO ALTO NETWORKS INC",
+            "shares": 67817,
+            "weight": 0.7291
+        },
+        {
+            "asset_type": "stock",
+            "code": "HON US",
+            "name": "HONEYWELL INTERNATIONAL INC",
+            "shares": 64369,
+            "weight": 0.6842
+        },
+        {
+            "asset_type": "stock",
+            "code": "CEG US",
+            "name": "CONSTELLATION ENERGY GROUP",
+            "shares": 31673,
+            "weight": 0.657
+        },
+        {
+            "asset_type": "stock",
+            "code": "CRWD US",
+            "name": "CROWDSTRIKE HOLDINGS INC",
+            "shares": 25443,
+            "weight": 0.6419
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADI US",
+            "name": "Analog Devices Inc",
+            "shares": 49877,
+            "weight": 0.6304
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADP US",
+            "name": "Automatic Data Processing Inc",
+            "shares": 41066,
+            "weight": 0.6019
+        },
+        {
+            "asset_type": "stock",
+            "code": "CMCSA US",
+            "name": "Comcast Corp",
+            "shares": 373379,
+            "weight": 0.5715
+        },
+        {
+            "asset_type": "stock",
+            "code": "DASH US",
+            "name": "DOORDASH INC",
+            "shares": 40794,
+            "weight": 0.5691
+        },
+        {
+            "asset_type": "stock",
+            "code": "VRTX US",
+            "name": "Vertex Pharmaceuticals Inc",
+            "shares": 25994,
+            "weight": 0.5556
+        },
+        {
+            "asset_type": "stock",
+            "code": "MELI US",
+            "name": "MercadoLibre Inc",
+            "shares": 5140,
+            "weight": 0.5494
+        },
+        {
+            "asset_type": "stock",
+            "code": "SBUX US",
+            "name": "Starbucks Corp",
+            "shares": 115245,
+            "weight": 0.5085
+        },
+        {
+            "asset_type": "stock",
+            "code": "CDNS US",
+            "name": "Cadence Design Systems Inc",
+            "shares": 27627,
+            "weight": 0.4686
+        },
+        {
+            "asset_type": "stock",
+            "code": "ASML US",
+            "name": "ASML Holding NV",
+            "shares": 8590,
+            "weight": 0.4582
+        },
+        {
+            "asset_type": "stock",
+            "code": "ORLY US",
+            "name": "O'Reilly Automotive Inc",
+            "shares": 86025,
+            "weight": 0.4553
+        },
+        {
+            "asset_type": "stock",
+            "code": "PDD US",
+            "name": "PDD HOLDINGS INC ADS",
+            "shares": 67718,
+            "weight": 0.4511
+        },
+        {
+            "asset_type": "stock",
+            "code": "SNPS US",
+            "name": "Synopsys Inc",
+            "shares": 18761,
+            "weight": 0.432
+        },
+        {
+            "asset_type": "stock",
+            "code": "MDLZ US",
+            "name": "Mondelez International Inc",
+            "shares": 131188,
+            "weight": 0.4227
+        },
+        {
+            "asset_type": "stock",
+            "code": "MRVL US",
+            "name": "MARVELL TECHNOLOGY GROUP LTD",
+            "shares": 87404,
+            "weight": 0.4034
+        },
+        {
+            "asset_type": "stock",
+            "code": "MSTR US",
+            "name": "MICROSTRATEGY INC",
+            "shares": 26757,
+            "weight": 0.3973
+        },
+        {
+            "asset_type": "stock",
+            "code": "CTAS US",
+            "name": "Cintas Corp",
+            "shares": 40856,
+            "weight": 0.394
+        },
+        {
+            "asset_type": "stock",
+            "code": "TRI US",
+            "name": "THOMSON REUTERS CORP",
+            "shares": 45693,
+            "weight": 0.3738
+        },
+        {
+            "asset_type": "stock",
+            "code": "MAR US",
+            "name": "Marriott International Inc/MD",
+            "shares": 27522,
+            "weight": 0.3729
+        },
+        {
+            "asset_type": "stock",
+            "code": "MNST US",
+            "name": "Monster Beverage Corp",
+            "shares": 98996,
+            "weight": 0.3633
+        },
+        {
+            "asset_type": "stock",
+            "code": "CSX US",
+            "name": "CSX Corp",
+            "shares": 189011,
+            "weight": 0.3558
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADSK US",
+            "name": "AUTODESK INC",
+            "shares": 21697,
+            "weight": 0.3403
+        },
+        {
+            "asset_type": "stock",
+            "code": "FTNT US",
+            "name": "FORTINET INC",
+            "shares": 77688,
+            "weight": 0.3379
+        },
+        {
+            "asset_type": "stock",
+            "code": "PYPL US",
+            "name": "PayPal Holdings Inc",
+            "shares": 96862,
+            "weight": 0.3347
+        },
+        {
+            "asset_type": "stock",
+            "code": "AEP US",
+            "name": "AMERICAN ELECTRIC POWER",
+            "shares": 54220,
+            "weight": 0.3333
+        },
+        {
+            "asset_type": "stock",
+            "code": "REGN US",
+            "name": "REGENERON PHARMACEUTICALS INC",
+            "shares": 10561,
+            "weight": 0.3144
+        },
+        {
+            "asset_type": "stock",
+            "code": "NXPI US",
+            "name": "NXP SEMICONDUCTORS NV",
+            "shares": 25561,
+            "weight": 0.2907
+        },
+        {
+            "asset_type": "stock",
+            "code": "ROP US",
+            "name": "ROPER TECHNOLOGIES INC",
+            "shares": 10911,
+            "weight": 0.2854
+        },
+        {
+            "asset_type": "stock",
+            "code": "ABNB US",
+            "name": "AIRBNB INC",
+            "shares": 43503,
+            "weight": 0.2796
+        },
+        {
+            "asset_type": "stock",
+            "code": "AXON US",
+            "name": "AXON ENTERPRISE INC",
+            "shares": 7959,
+            "weight": 0.2715
+        },
+        {
+            "asset_type": "stock",
+            "code": "IDXX US",
+            "name": "IDEXX Laboratories Inc",
+            "shares": 8111,
+            "weight": 0.2704
+        },
+        {
+            "asset_type": "stock",
+            "code": "ROST US",
+            "name": "Ross Stores Inc",
+            "shares": 33160,
+            "weight": 0.2692
+        },
+        {
+            "asset_type": "stock",
+            "code": "EA US",
+            "name": "ELECTRONIC ARTS INC",
+            "shares": 25367,
+            "weight": 0.2658
+        },
+        {
+            "asset_type": "stock",
+            "code": "PCAR US",
+            "name": "PACCAR Inc",
+            "shares": 53238,
+            "weight": 0.265
+        },
+        {
+            "asset_type": "stock",
+            "code": "WDAY US",
+            "name": "Workday Inc",
+            "shares": 22001,
+            "weight": 0.2619
+        },
+        {
+            "asset_type": "stock",
+            "code": "AZN US",
+            "name": "ASTRAZENECA PLC",
+            "shares": 59560,
+            "weight": 0.2612
+        },
+        {
+            "asset_type": "stock",
+            "code": "DDOG US",
+            "name": "DATADOG INC",
+            "shares": 32775,
+            "weight": 0.2592
+        },
+        {
+            "asset_type": "stock",
+            "code": "FAST US",
+            "name": "Fastenal Co",
+            "shares": 116354,
+            "weight": 0.2554
+        },
+        {
+            "asset_type": "stock",
+            "code": "XEL US",
+            "name": "Xcel Energy Inc",
+            "shares": 59962,
+            "weight": 0.2544
+        },
+        {
+            "asset_type": "stock",
+            "code": "EXC US",
+            "name": "EXELON CORP",
+            "shares": 102398,
+            "weight": 0.2537
+        },
+        {
+            "asset_type": "stock",
+            "code": "TTWO US",
+            "name": "Take-Two Interactive Software Inc",
+            "shares": 18703,
+            "weight": 0.2536
+        },
+        {
+            "asset_type": "stock",
+            "code": "ZS US",
+            "name": "ZSCALER INC",
+            "shares": 15785,
+            "weight": 0.2471
+        },
+        {
+            "asset_type": "stock",
+            "code": "PAYX US",
+            "name": "Paychex Inc",
+            "shares": 36459,
+            "weight": 0.2412
+        },
+        {
+            "asset_type": "stock",
+            "code": "WBD US",
+            "name": "WARNER BROS DISCOVERY INC",
+            "shares": 251008,
+            "weight": 0.2401
+        },
+        {
+            "asset_type": "stock",
+            "code": "BKR US",
+            "name": "BAKER HUGHES CO",
+            "shares": 99954,
+            "weight": 0.2334
+        },
+        {
+            "asset_type": "stock",
+            "code": "CPRT US",
+            "name": "COPART INC",
+            "shares": 98033,
+            "weight": 0.2259
+        },
+        {
+            "asset_type": "stock",
+            "code": "CCEP US",
+            "name": "COCA-COLA EUROPACIFIC PARTNERS",
+            "shares": 46455,
+            "weight": 0.2169
+        },
+        {
+            "asset_type": "stock",
+            "code": "FANG US",
+            "name": "DIAMONDBACK ENERGY INC",
+            "shares": 29350,
+            "weight": 0.2141
+        },
+        {
+            "asset_type": "stock",
+            "code": "KDP US",
+            "name": "KEURIG DR PEPPER INC",
+            "shares": 137726,
+            "weight": 0.1997
+        },
+        {
+            "asset_type": "stock",
+            "code": "MCHP US",
+            "name": "Microchip Technology Inc",
+            "shares": 54716,
+            "weight": 0.187
+        },
+        {
+            "asset_type": "stock",
+            "code": "CHTR US",
+            "name": "Charter Communications Inc",
+            "shares": 13848,
+            "weight": 0.1849
+        },
+        {
+            "asset_type": "stock",
+            "code": "GEHC US",
+            "name": "GE HEALTHCARE TECHNOLOGIES INC",
+            "shares": 46289,
+            "weight": 0.1777
+        },
+        {
+            "asset_type": "stock",
+            "code": "VRSK US",
+            "name": "Verisk Analytics Inc",
+            "shares": 14165,
+            "weight": 0.1697
+        },
+        {
+            "asset_type": "stock",
+            "code": "CTSH US",
+            "name": "Cognizant Technology Solutions Corp",
+            "shares": 49516,
+            "weight": 0.1696
+        },
+        {
+            "asset_type": "stock",
+            "code": "CSGP US",
+            "name": "COSTAR GROUP INC",
+            "shares": 42952,
+            "weight": 0.167
+        },
+        {
+            "asset_type": "stock",
+            "code": "KHC US",
+            "name": "Kraft Heinz Co/The",
+            "shares": 120000,
+            "weight": 0.1577
+        },
+        {
+            "asset_type": "stock",
+            "code": "ODFL US",
+            "name": "OLD DOMINION FREIGHT LINE INC",
+            "shares": 21308,
+            "weight": 0.1539
+        },
+        {
+            "asset_type": "stock",
+            "code": "DXCM US",
+            "name": "DEXCOM INC",
+            "shares": 39759,
+            "weight": 0.1379
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEAM US",
+            "name": "ATLASSIAN CORP PLC-CLASS A",
+            "shares": 16859,
+            "weight": 0.1324
+        },
+        {
+            "asset_type": "stock",
+            "code": "ARM US",
+            "name": "ARM HOLDINGS PLC",
+            "shares": 13847,
+            "weight": 0.124
+        },
+        {
+            "asset_type": "stock",
+            "code": "TTD US",
+            "name": "TRADE DESK INC/THE",
+            "shares": 45184,
+            "weight": 0.1179
+        },
+        {
+            "asset_type": "stock",
+            "code": "ON US",
+            "name": "ON SEMICONDUCTOR CORP",
+            "shares": 41464,
+            "weight": 0.1149
+        },
+        {
+            "asset_type": "stock",
+            "code": "BIIB US",
+            "name": "Biogen Inc",
+            "shares": 14865,
+            "weight": 0.1106
+        },
+        {
+            "asset_type": "stock",
+            "code": "CDW US",
+            "name": "CDW CORP/DE",
+            "shares": 13288,
+            "weight": 0.105
+        },
+        {
+            "asset_type": "stock",
+            "code": "GFS US",
+            "name": "GLOBALFOUNDRIES INC",
+            "shares": 56266,
+            "weight": 0.1017
+        },
+        {
+            "asset_type": "stock",
+            "code": "LULU US",
+            "name": "LULULEMON ATHLETICA INC",
+            "shares": 11632,
+            "weight": 0.1001
+        },
+        {
+            "asset_type": "future",
+            "code": "NQZ5F",
+            "name": "2025/12小型那斯達克100指數",
+            "shares": 46,
+            "weight": 1.1951
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "last_updated_utc": "2025-10-18T16:54:16.661238+00:00",
+    "holdings": [
+        {
+            "asset_type": "future",
+            "code": "WTXX5F",
+            "name": "2025/11台股指數期貨",
+            "shares": 5599,
+            "weight": 200.3607
+        },
+        {
+            "asset_type": "bond",
+            "code": "A01201",
+            "name": "101央債乙1",
+            "shares": null,
+            "weight": 0.1382968628896515
+        },
+        {
+            "asset_type": "bond",
+            "code": "A13108",
+            "name": "113央債甲8",
+            "shares": null,
+            "weight": 0.007543350253585946
+        },
+        {
+            "asset_type": "bond",
+            "code": "A99104",
+            "name": "99央債甲四",
+            "shares": null,
+            "weight": 0.0756848545722124
+        },
+        {
+            "asset_type": "bond",
+            "code": "A99107",
+            "name": "99央債甲七",
+            "shares": null,
+            "weight": 0.30232806912531884
+        },
+        {
+            "asset_type": "bond",
+            "code": "B63110",
+            "name": "P10欣興2",
+            "shares": null,
+            "weight": 0.13094661961601328
+        },
+        {
+            "asset_type": "bond",
+            "code": "B644DC",
+            "name": "P13鴻海3A",
+            "shares": null,
+            "weight": 0.5892597882720598
+        },
+        {
+            "asset_type": "bond",
+            "code": "B6A301",
+            "name": "P11台達電1",
+            "shares": null,
+            "weight": 0.36010320394403655
+        },
+        {
+            "asset_type": "bond",
+            "code": "B903Z2",
+            "name": "P12台電3B",
+            "shares": null,
+            "weight": 0.22915658432802327
+        },
+        {
+            "asset_type": "bond",
+            "code": "B94654",
+            "name": "P11遠傳1",
+            "shares": null,
+            "weight": 0.3273665490400332
+        },
+        {
+            "asset_type": "bond",
+            "code": "B95462",
+            "name": "P10中控1B",
+            "shares": null,
+            "weight": 0.1833252674624186
+        },
+        {
+            "asset_type": "bond",
+            "code": "B99903",
+            "name": "P10合迪1",
+            "shares": null,
+            "weight": 0.3273665490400332
+        }
+    ]
+}

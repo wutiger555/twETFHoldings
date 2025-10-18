@@ -1,0 +1,3260 @@
+{
+    "last_updated_utc": "2025-10-18T16:54:14.736832+00:00",
+    "holdings": [
+        {
+            "asset_type": "stock",
+            "code": "ASML NA",
+            "name": "ASML Holding NV",
+            "shares": 539,
+            "weight": 2.9785
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAP GY",
+            "name": "SAP SE",
+            "shares": 1407,
+            "weight": 2.0665
+        },
+        {
+            "asset_type": "stock",
+            "code": "NESN SE",
+            "name": "Nestle SA",
+            "shares": 3571,
+            "weight": 2.0168
+        },
+        {
+            "asset_type": "stock",
+            "code": "AZN LN",
+            "name": "AstraZeneca PLC",
+            "shares": 2115,
+            "weight": 1.9244
+        },
+        {
+            "asset_type": "stock",
+            "code": "ROG SE",
+            "name": "Roche Holding AG",
+            "shares": 993,
+            "weight": 1.9228
+        },
+        {
+            "asset_type": "stock",
+            "code": "NOVN SE",
+            "name": "Novartis AG",
+            "shares": 2636,
+            "weight": 1.8668
+        },
+        {
+            "asset_type": "stock",
+            "code": "HSBA LN",
+            "name": "HSBC Holdings PLC",
+            "shares": 24532,
+            "weight": 1.7586
+        },
+        {
+            "asset_type": "stock",
+            "code": "SHEL LN",
+            "name": "SHELL PLC",
+            "shares": 8296,
+            "weight": 1.6093
+        },
+        {
+            "asset_type": "stock",
+            "code": "SIE GY",
+            "name": "Siemens AG",
+            "shares": 1037,
+            "weight": 1.5952
+        },
+        {
+            "asset_type": "stock",
+            "code": "NOVOB DC",
+            "name": "NOVO NORDISK A/S",
+            "shares": 4498,
+            "weight": 1.3882
+        },
+        {
+            "asset_type": "stock",
+            "code": "MC FP",
+            "name": "LVMH Moet Hennessy Louis Vuitton SE",
+            "shares": 349,
+            "weight": 1.3236
+        },
+        {
+            "asset_type": "stock",
+            "code": "ALV GY",
+            "name": "Allianz SE",
+            "shares": 545,
+            "weight": 1.2494
+        },
+        {
+            "asset_type": "stock",
+            "code": "SU FP",
+            "name": "Schneider Electric SE",
+            "shares": 765,
+            "weight": 1.2158
+        },
+        {
+            "asset_type": "stock",
+            "code": "ULVR LN",
+            "name": "Unilever PLC",
+            "shares": 3404,
+            "weight": 1.1324
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAN SQ",
+            "name": "Banco Santander SA",
+            "shares": 20937,
+            "weight": 1.1312
+        },
+        {
+            "asset_type": "stock",
+            "code": "AIR FP",
+            "name": "Airbus SE",
+            "shares": 800,
+            "weight": 1.0351
+        },
+        {
+            "asset_type": "stock",
+            "code": "IBE SQ",
+            "name": "IBERDROLA SA",
+            "shares": 9415,
+            "weight": 0.9967
+        },
+        {
+            "asset_type": "stock",
+            "code": "RR/ LN",
+            "name": "Rolls-Royce Holdings PLC",
+            "shares": 11636,
+            "weight": 0.9614
+        },
+        {
+            "asset_type": "stock",
+            "code": "UBSG SE",
+            "name": "UBS Group AG",
+            "shares": 4375,
+            "weight": 0.9291
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAF FP",
+            "name": "Safran SA",
+            "shares": 476,
+            "weight": 0.9077
+        },
+        {
+            "asset_type": "stock",
+            "code": "TTE FP",
+            "name": "TOTALENERGIES SE",
+            "shares": 2625,
+            "weight": 0.8691
+        },
+        {
+            "asset_type": "stock",
+            "code": "ABBN SE",
+            "name": "ABB Ltd",
+            "shares": 2156,
+            "weight": 0.866
+        },
+        {
+            "asset_type": "stock",
+            "code": "AI FP",
+            "name": "Air Liquide SA",
+            "shares": 789,
+            "weight": 0.8646
+        },
+        {
+            "asset_type": "stock",
+            "code": "UCG IM",
+            "name": "UniCredit SpA",
+            "shares": 2134,
+            "weight": 0.8501
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAN FP",
+            "name": "SANOFI",
+            "shares": 1468,
+            "weight": 0.7981
+        },
+        {
+            "asset_type": "stock",
+            "code": "CFR SE",
+            "name": "Cie Financiere Richemont SA",
+            "shares": 726,
+            "weight": 0.794
+        },
+        {
+            "asset_type": "stock",
+            "code": "BATS LN",
+            "name": "British American Tobacco PLC",
+            "shares": 2832,
+            "weight": 0.7844
+        },
+        {
+            "asset_type": "stock",
+            "code": "DTE GY",
+            "name": "Deutsche Telekom AG",
+            "shares": 4128,
+            "weight": 0.7706
+        },
+        {
+            "asset_type": "stock",
+            "code": "BBVA SQ",
+            "name": "Banco Bilbao Vizcaya Argentaria SA",
+            "shares": 7756,
+            "weight": 0.7676
+        },
+        {
+            "asset_type": "stock",
+            "code": "OR FP",
+            "name": "L'Oreal SA",
+            "shares": 313,
+            "weight": 0.7616
+        },
+        {
+            "asset_type": "stock",
+            "code": "ZURN SE",
+            "name": "Zurich Insurance Group AG",
+            "shares": 195,
+            "weight": 0.7395
+        },
+        {
+            "asset_type": "stock",
+            "code": "ISP IM",
+            "name": "Intesa Sanpaolo SpA",
+            "shares": 21455,
+            "weight": 0.7391
+        },
+        {
+            "asset_type": "stock",
+            "code": "RHM GY",
+            "name": "RHEINMETALL AG",
+            "shares": 63,
+            "weight": 0.704
+        },
+        {
+            "asset_type": "stock",
+            "code": "EL FP",
+            "name": "EssilorLuxottica SA",
+            "shares": 394,
+            "weight": 0.6863
+        },
+        {
+            "asset_type": "stock",
+            "code": "BNP FP",
+            "name": "BNP Paribas SA",
+            "shares": 1370,
+            "weight": 0.6728
+        },
+        {
+            "asset_type": "stock",
+            "code": "GSK LN",
+            "name": "GSK PLC",
+            "shares": 5549,
+            "weight": 0.6571
+        },
+        {
+            "asset_type": "stock",
+            "code": "BP/ LN",
+            "name": "BP PLC",
+            "shares": 21871,
+            "weight": 0.6547
+        },
+        {
+            "asset_type": "stock",
+            "code": "PRX NA",
+            "name": "PROSUS",
+            "shares": 1748,
+            "weight": 0.6462
+        },
+        {
+            "asset_type": "stock",
+            "code": "RMS FP",
+            "name": "Hermes International",
+            "shares": 47,
+            "weight": 0.6399
+        },
+        {
+            "asset_type": "stock",
+            "code": "MUV2 GY",
+            "name": "Muenchener Rueckversicherungs-Gesellschaft AG in Muenchen",
+            "shares": 179,
+            "weight": 0.6225
+        },
+        {
+            "asset_type": "stock",
+            "code": "REL LN",
+            "name": "RELX PLC",
+            "shares": 2524,
+            "weight": 0.6139
+        },
+        {
+            "asset_type": "stock",
+            "code": "CS FP",
+            "name": "AXA SA",
+            "shares": 2381,
+            "weight": 0.6028
+        },
+        {
+            "asset_type": "stock",
+            "code": "ENR GY",
+            "name": "SIEMENS ENERGY AG",
+            "shares": 906,
+            "weight": 0.6008
+        },
+        {
+            "asset_type": "stock",
+            "code": "NG/ LN",
+            "name": "National Grid PLC",
+            "shares": 7152,
+            "weight": 0.5818
+        },
+        {
+            "asset_type": "stock",
+            "code": "ENEL IM",
+            "name": "Enel SpA",
+            "shares": 10623,
+            "weight": 0.5713
+        },
+        {
+            "asset_type": "stock",
+            "code": "BA/ LN",
+            "name": "BAE Systems PLC",
+            "shares": 4125,
+            "weight": 0.5704
+        },
+        {
+            "asset_type": "stock",
+            "code": "INGA NA",
+            "name": "ING Groep NV",
+            "shares": 4199,
+            "weight": 0.5569
+        },
+        {
+            "asset_type": "stock",
+            "code": "RIO LN",
+            "name": "Rio Tinto PLC",
+            "shares": 1458,
+            "weight": 0.5429
+        },
+        {
+            "asset_type": "stock",
+            "code": "DG FP",
+            "name": "Vinci SA",
+            "shares": 705,
+            "weight": 0.5408
+        },
+        {
+            "asset_type": "stock",
+            "code": "BARC LN",
+            "name": "Barclays PLC",
+            "shares": 19354,
+            "weight": 0.5319
+        },
+        {
+            "asset_type": "stock",
+            "code": "LLOY LN",
+            "name": "Lloyds Banking Group PLC",
+            "shares": 84890,
+            "weight": 0.5197
+        },
+        {
+            "asset_type": "stock",
+            "code": "DBK GY",
+            "name": "Deutsche Bank AG",
+            "shares": 2501,
+            "weight": 0.4804
+        },
+        {
+            "asset_type": "stock",
+            "code": "ITX SQ",
+            "name": "Industria de Diseno Textil SA",
+            "shares": 1561,
+            "weight": 0.4742
+        },
+        {
+            "asset_type": "stock",
+            "code": "LSEG LN",
+            "name": "LONDON STOCK EXCHANGE GROUP PL",
+            "shares": 713,
+            "weight": 0.4476
+        },
+        {
+            "asset_type": "stock",
+            "code": "ABI BB",
+            "name": "ANHEUSER-BUSCH INBEV NV",
+            "shares": 1343,
+            "weight": 0.4474
+        },
+        {
+            "asset_type": "stock",
+            "code": "NWG LN",
+            "name": "NATWEST GROUP PLC",
+            "shares": 11086,
+            "weight": 0.4404
+        },
+        {
+            "asset_type": "stock",
+            "code": "BN FP",
+            "name": "Danone SA",
+            "shares": 894,
+            "weight": 0.4296
+        },
+        {
+            "asset_type": "stock",
+            "code": "CPG LN",
+            "name": "Compass Group PLC",
+            "shares": 2328,
+            "weight": 0.4243
+        },
+        {
+            "asset_type": "stock",
+            "code": "INVEB SS",
+            "name": "Investor AB",
+            "shares": 2409,
+            "weight": 0.4234
+        },
+        {
+            "asset_type": "stock",
+            "code": "SREN SE",
+            "name": "Swiss Re AG",
+            "shares": 415,
+            "weight": 0.4168
+        },
+        {
+            "asset_type": "stock",
+            "code": "NDA FH",
+            "name": "NORDEA BANK ABP",
+            "shares": 4500,
+            "weight": 0.4146
+        },
+        {
+            "asset_type": "stock",
+            "code": "III LN",
+            "name": "3i Group PLC",
+            "shares": 1329,
+            "weight": 0.4107
+        },
+        {
+            "asset_type": "stock",
+            "code": "DGE LN",
+            "name": "Diageo PLC",
+            "shares": 3139,
+            "weight": 0.4099
+        },
+        {
+            "asset_type": "stock",
+            "code": "RKT LN",
+            "name": "RECKITT BENCKISER GROUP PLC",
+            "shares": 935,
+            "weight": 0.3933
+        },
+        {
+            "asset_type": "stock",
+            "code": "ARGX BB",
+            "name": "ARGENX SE",
+            "shares": 86,
+            "weight": 0.3852
+        },
+        {
+            "asset_type": "stock",
+            "code": "GLEN LN",
+            "name": "Glencore PLC",
+            "shares": 15114,
+            "weight": 0.385
+        },
+        {
+            "asset_type": "stock",
+            "code": "IFX GY",
+            "name": "Infineon Technologies AG",
+            "shares": 1835,
+            "weight": 0.3843
+        },
+        {
+            "asset_type": "stock",
+            "code": "GLE FP",
+            "name": "Societe Generale SA",
+            "shares": 1050,
+            "weight": 0.3737
+        },
+        {
+            "asset_type": "stock",
+            "code": "LONN SE",
+            "name": "Lonza Group AG",
+            "shares": 100,
+            "weight": 0.372
+        },
+        {
+            "asset_type": "stock",
+            "code": "SGO FP",
+            "name": "Cie de Saint-Gobain",
+            "shares": 638,
+            "weight": 0.3642
+        },
+        {
+            "asset_type": "stock",
+            "code": "DB1 GY",
+            "name": "Deutsche Boerse AG",
+            "shares": 260,
+            "weight": 0.363
+        },
+        {
+            "asset_type": "stock",
+            "code": "RACE IM",
+            "name": "Ferrari NV",
+            "shares": 168,
+            "weight": 0.3621
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADYEN NA",
+            "name": "ADYEN NA Equity",
+            "shares": 39,
+            "weight": 0.3597
+        },
+        {
+            "asset_type": "stock",
+            "code": "BAS GY",
+            "name": "BASF SE",
+            "shares": 1308,
+            "weight": 0.3558
+        },
+        {
+            "asset_type": "stock",
+            "code": "MBG GY",
+            "name": "MERCEDES-BENZ GROUP AG",
+            "shares": 1067,
+            "weight": 0.3543
+        },
+        {
+            "asset_type": "stock",
+            "code": "ATCOA SS",
+            "name": "ATLAS COPCO AB-A SHS",
+            "shares": 3704,
+            "weight": 0.3539
+        },
+        {
+            "asset_type": "stock",
+            "code": "VOLVB SS",
+            "name": "Volvo AB",
+            "shares": 2292,
+            "weight": 0.3507
+        },
+        {
+            "asset_type": "stock",
+            "code": "EXPN LN",
+            "name": "Experian PLC",
+            "shares": 1294,
+            "weight": 0.3339
+        },
+        {
+            "asset_type": "stock",
+            "code": "EOAN GY",
+            "name": "E.ON SE",
+            "shares": 3249,
+            "weight": 0.3336
+        },
+        {
+            "asset_type": "stock",
+            "code": "DHL GY",
+            "name": "DEUTSCHE GROUP AG",
+            "shares": 1338,
+            "weight": 0.3299
+        },
+        {
+            "asset_type": "stock",
+            "code": "LR FP",
+            "name": "Legrand SA",
+            "shares": 345,
+            "weight": 0.3231
+        },
+        {
+            "asset_type": "stock",
+            "code": "ENGI FP",
+            "name": "Engie SA",
+            "shares": 2583,
+            "weight": 0.3208
+        },
+        {
+            "asset_type": "stock",
+            "code": "AAL LN",
+            "name": "ANGLO AMERICAN PLC",
+            "shares": 1501,
+            "weight": 0.3192
+        },
+        {
+            "asset_type": "stock",
+            "code": "HOLN SE",
+            "name": "HOLCIM LTD",
+            "shares": 688,
+            "weight": 0.3138
+        },
+        {
+            "asset_type": "stock",
+            "code": "HLN LN",
+            "name": "HALEON PLC",
+            "shares": 12367,
+            "weight": 0.3093
+        },
+        {
+            "asset_type": "stock",
+            "code": "AD NA",
+            "name": "Koninklijke Ahold Delhaize NV",
+            "shares": 1333,
+            "weight": 0.3066
+        },
+        {
+            "asset_type": "stock",
+            "code": "ALC SE",
+            "name": "ALCON INC",
+            "shares": 725,
+            "weight": 0.2964
+        },
+        {
+            "asset_type": "stock",
+            "code": "DSV DC",
+            "name": "DSV A/S",
+            "shares": 261,
+            "weight": 0.2958
+        },
+        {
+            "asset_type": "stock",
+            "code": "G IM",
+            "name": "Assicurazioni Generali SpA",
+            "shares": 1417,
+            "weight": 0.2907
+        },
+        {
+            "asset_type": "stock",
+            "code": "TSCO LN",
+            "name": "Tesco PLC",
+            "shares": 9019,
+            "weight": 0.2896
+        },
+        {
+            "asset_type": "stock",
+            "code": "CABK SQ",
+            "name": "CaixaBank SA",
+            "shares": 5069,
+            "weight": 0.2861
+        },
+        {
+            "asset_type": "stock",
+            "code": "SIKA SE",
+            "name": "SIKA AG-BR",
+            "shares": 235,
+            "weight": 0.2816
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADS GY",
+            "name": "adidas AG",
+            "shares": 228,
+            "weight": 0.2766
+        },
+        {
+            "asset_type": "stock",
+            "code": "LISP SE",
+            "name": "CHOCOLADEFABRIKEN LINDT-PC",
+            "shares": 3,
+            "weight": 0.27
+        },
+        {
+            "asset_type": "stock",
+            "code": "ASSAB SS",
+            "name": "Assa Abloy AB",
+            "shares": 1372,
+            "weight": 0.2687
+        },
+        {
+            "asset_type": "stock",
+            "code": "PRU LN",
+            "name": "Prudential PLC",
+            "shares": 3632,
+            "weight": 0.2652
+        },
+        {
+            "asset_type": "stock",
+            "code": "GIVN SE",
+            "name": "GIVAUDAN-REG",
+            "shares": 11,
+            "weight": 0.2642
+        },
+        {
+            "asset_type": "stock",
+            "code": "UCB BB",
+            "name": "UCB SA",
+            "shares": 164,
+            "weight": 0.2641
+        },
+        {
+            "asset_type": "stock",
+            "code": "ORA FP",
+            "name": "Orange SA",
+            "shares": 2977,
+            "weight": 0.264
+        },
+        {
+            "asset_type": "stock",
+            "code": "STAN LN",
+            "name": "Standard Chartered PLC",
+            "shares": 2546,
+            "weight": 0.2635
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMS SQ",
+            "name": "Amadeus IT Group SA",
+            "shares": 617,
+            "weight": 0.2633
+        },
+        {
+            "asset_type": "stock",
+            "code": "ENI IM",
+            "name": "Eni SpA",
+            "shares": 2749,
+            "weight": 0.2556
+        },
+        {
+            "asset_type": "stock",
+            "code": "RWE GY",
+            "name": "RWE AG",
+            "shares": 956,
+            "weight": 0.2505
+        },
+        {
+            "asset_type": "stock",
+            "code": "SLHN SE",
+            "name": "Swiss Life Holding AG",
+            "shares": 42,
+            "weight": 0.2477
+        },
+        {
+            "asset_type": "stock",
+            "code": "BAYN GY",
+            "name": "Bayer AG",
+            "shares": 1406,
+            "weight": 0.2398
+        },
+        {
+            "asset_type": "stock",
+            "code": "IMB LN",
+            "name": "Imperial Brands PLC",
+            "shares": 1075,
+            "weight": 0.2328
+        },
+        {
+            "asset_type": "stock",
+            "code": "SEBA SS",
+            "name": "SKANDINAVISKA ENSKILDA BANKEN",
+            "shares": 2223,
+            "weight": 0.2306
+        },
+        {
+            "asset_type": "stock",
+            "code": "PRY IM",
+            "name": "PRYSMIAN SPA",
+            "shares": 399,
+            "weight": 0.2274
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAND SS",
+            "name": "Sandvik AB",
+            "shares": 1453,
+            "weight": 0.2264
+        },
+        {
+            "asset_type": "stock",
+            "code": "AHT LN",
+            "name": "Ashtead Group PLC",
+            "shares": 582,
+            "weight": 0.2261
+        },
+        {
+            "asset_type": "stock",
+            "code": "WKL NA",
+            "name": "Wolters Kluwer NV",
+            "shares": 327,
+            "weight": 0.2255
+        },
+        {
+            "asset_type": "stock",
+            "code": "FER SQ",
+            "name": "FERROVIAL SE",
+            "shares": 658,
+            "weight": 0.2234
+        },
+        {
+            "asset_type": "stock",
+            "code": "EBS AV",
+            "name": "ERSTE GROUP BANK AG",
+            "shares": 416,
+            "weight": 0.2221
+        },
+        {
+            "asset_type": "stock",
+            "code": "ASM NA",
+            "name": "ASM INTERNATIONAL NV",
+            "shares": 64,
+            "weight": 0.2211
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAMPO FH",
+            "name": "SAMPO OYJ",
+            "shares": 3599,
+            "weight": 0.2191
+        },
+        {
+            "asset_type": "stock",
+            "code": "BMW GY",
+            "name": "Bayerische Motoren Werke AG",
+            "shares": 434,
+            "weight": 0.2175
+        },
+        {
+            "asset_type": "stock",
+            "code": "HO FP",
+            "name": "Thales SA",
+            "shares": 136,
+            "weight": 0.2173
+        },
+        {
+            "asset_type": "stock",
+            "code": "GALD SE",
+            "name": "GALDERMA GROUP AG",
+            "shares": 228,
+            "weight": 0.2144
+        },
+        {
+            "asset_type": "stock",
+            "code": "HEI GY",
+            "name": "HEIDELBERG MATERIALS AG",
+            "shares": 172,
+            "weight": 0.2109
+        },
+        {
+            "asset_type": "stock",
+            "code": "PGHN SE",
+            "name": "Partners Group AG",
+            "shares": 31,
+            "weight": 0.2108
+        },
+        {
+            "asset_type": "stock",
+            "code": "NOKIA FH",
+            "name": "Nokia",
+            "shares": 6781,
+            "weight": 0.2088
+        },
+        {
+            "asset_type": "stock",
+            "code": "DANSKE DC",
+            "name": "DANSKE BANK A/S",
+            "shares": 904,
+            "weight": 0.2082
+        },
+        {
+            "asset_type": "stock",
+            "code": "SSE LN",
+            "name": "SSE PLC",
+            "shares": 1519,
+            "weight": 0.2052
+        },
+        {
+            "asset_type": "stock",
+            "code": "CBK GY",
+            "name": "Commerzbank AG",
+            "shares": 1057,
+            "weight": 0.2047
+        },
+        {
+            "asset_type": "stock",
+            "code": "AV/ LN",
+            "name": "Aviva PLC",
+            "shares": 4242,
+            "weight": 0.2042
+        },
+        {
+            "asset_type": "stock",
+            "code": "KBC BB",
+            "name": "KBC BANKVERZEKERINGSHOLDING",
+            "shares": 310,
+            "weight": 0.199
+        },
+        {
+            "asset_type": "stock",
+            "code": "UMG NA",
+            "name": "UNIVERSAL MUSIC GROUP NV",
+            "shares": 1313,
+            "weight": 0.1957
+        },
+        {
+            "asset_type": "stock",
+            "code": "SDZ SE",
+            "name": "SANDOZ GROUP AG",
+            "shares": 592,
+            "weight": 0.1956
+        },
+        {
+            "asset_type": "stock",
+            "code": "ERICB SS",
+            "name": "Telefonaktiebolaget LM Ericsson",
+            "shares": 3736,
+            "weight": 0.1926
+        },
+        {
+            "asset_type": "stock",
+            "code": "SWEDA SS",
+            "name": "Swedbank AB",
+            "shares": 1161,
+            "weight": 0.1903
+        },
+        {
+            "asset_type": "stock",
+            "code": "GEBN SE",
+            "name": "Geberit AG",
+            "shares": 46,
+            "weight": 0.19
+        },
+        {
+            "asset_type": "stock",
+            "code": "KER FP",
+            "name": "Kering SA",
+            "shares": 96,
+            "weight": 0.1865
+        },
+        {
+            "asset_type": "stock",
+            "code": "HEIA NA",
+            "name": "Heineken NV",
+            "shares": 421,
+            "weight": 0.184
+        },
+        {
+            "asset_type": "stock",
+            "code": "HEXAB SS",
+            "name": "Hexagon AB",
+            "shares": 2824,
+            "weight": 0.1819
+        },
+        {
+            "asset_type": "stock",
+            "code": "NSISB DC",
+            "name": "NOVONESIS (NOVOZYMES) B",
+            "shares": 528,
+            "weight": 0.1813
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMRZ SE",
+            "name": "AMRIZE LTD",
+            "shares": 683,
+            "weight": 0.1801
+        },
+        {
+            "asset_type": "stock",
+            "code": "LDO IM",
+            "name": "Leonardo",
+            "shares": 560,
+            "weight": 0.1791
+        },
+        {
+            "asset_type": "stock",
+            "code": "VOW3 GY",
+            "name": "VOLKSWAGEN AG",
+            "shares": 314,
+            "weight": 0.1778
+        },
+        {
+            "asset_type": "stock",
+            "code": "VIE FP",
+            "name": "Veolia Environnement SA",
+            "shares": 943,
+            "weight": 0.1775
+        },
+        {
+            "asset_type": "stock",
+            "code": "MTX GY",
+            "name": "MTU AERO ENGINES AG",
+            "shares": 74,
+            "weight": 0.1747
+        },
+        {
+            "asset_type": "stock",
+            "code": "PHIA NA",
+            "name": "Koninklijke Philips NV",
+            "shares": 1135,
+            "weight": 0.1737
+        },
+        {
+            "asset_type": "stock",
+            "code": "ATCOB SS",
+            "name": "Atlas Copco B",
+            "shares": 2062,
+            "weight": 0.1735
+        },
+        {
+            "asset_type": "stock",
+            "code": "BAMI IM",
+            "name": "BANCO BPM SPA",
+            "shares": 2236,
+            "weight": 0.1718
+        },
+        {
+            "asset_type": "stock",
+            "code": "DTG GY",
+            "name": "DAIMLER TRUCK HOLDING AG",
+            "shares": 780,
+            "weight": 0.1707
+        },
+        {
+            "asset_type": "stock",
+            "code": "FRE GY",
+            "name": "Fresenius SE & Co KGaA",
+            "shares": 574,
+            "weight": 0.1706
+        },
+        {
+            "asset_type": "stock",
+            "code": "PUB FP",
+            "name": "Publicis Groupe SA",
+            "shares": 311,
+            "weight": 0.1687
+        },
+        {
+            "asset_type": "stock",
+            "code": "VOD LN",
+            "name": "Vodafone Group PLC",
+            "shares": 26930,
+            "weight": 0.1678
+        },
+        {
+            "asset_type": "stock",
+            "code": "VNA GY",
+            "name": "Vonovia SE",
+            "shares": 948,
+            "weight": 0.1666
+        },
+        {
+            "asset_type": "stock",
+            "code": "DSY FP",
+            "name": "Dassault Systemes SE",
+            "shares": 894,
+            "weight": 0.1654
+        },
+        {
+            "asset_type": "stock",
+            "code": "ML FP",
+            "name": "Cie Generale des Etablissements Michelin SCA",
+            "shares": 964,
+            "weight": 0.1644
+        },
+        {
+            "asset_type": "stock",
+            "code": "VWS DC",
+            "name": "VESTAS WIND SYSTEM",
+            "shares": 1490,
+            "weight": 0.164
+        },
+        {
+            "asset_type": "stock",
+            "code": "CAP FP",
+            "name": "Capgemini SE",
+            "shares": 211,
+            "weight": 0.1628
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEF SQ",
+            "name": "Telefonica SA",
+            "shares": 5799,
+            "weight": 0.1627
+        },
+        {
+            "asset_type": "stock",
+            "code": "DNB NO",
+            "name": "DNB ASA",
+            "shares": 1105,
+            "weight": 0.1617
+        },
+        {
+            "asset_type": "stock",
+            "code": "STLAM IM",
+            "name": "STELLANTIS NV",
+            "shares": 2905,
+            "weight": 0.1617
+        },
+        {
+            "asset_type": "stock",
+            "code": "KNEBV FH",
+            "name": "KONE OYJ-B",
+            "shares": 448,
+            "weight": 0.1608
+        },
+        {
+            "asset_type": "stock",
+            "code": "ACA FP",
+            "name": "Credit Agricole SA",
+            "shares": 1452,
+            "weight": 0.1545
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAB SQ",
+            "name": "BANCO DE SABADELL SA",
+            "shares": 7497,
+            "weight": 0.1524
+        },
+        {
+            "asset_type": "stock",
+            "code": "RI FP",
+            "name": "Pernod Ricard SA",
+            "shares": 274,
+            "weight": 0.1498
+        },
+        {
+            "asset_type": "stock",
+            "code": "IHG LN",
+            "name": "InterContinental Hotels Group PLC",
+            "shares": 229,
+            "weight": 0.1481
+        },
+        {
+            "asset_type": "stock",
+            "code": "EQT SS",
+            "name": "EQT AB",
+            "shares": 784,
+            "weight": 0.1472
+        },
+        {
+            "asset_type": "stock",
+            "code": "NXT LN",
+            "name": "NEXT PLC",
+            "shares": 155,
+            "weight": 0.1472
+        },
+        {
+            "asset_type": "stock",
+            "code": "STMPA FP",
+            "name": "STMICROELECTRONICS NV",
+            "shares": 924,
+            "weight": 0.147
+        },
+        {
+            "asset_type": "stock",
+            "code": "KPN NA",
+            "name": "Koninklijke KPN NV",
+            "shares": 5744,
+            "weight": 0.1468
+        },
+        {
+            "asset_type": "stock",
+            "code": "CCEP LN",
+            "name": "COCA-COLA EUROPACIFIC PARTNERS",
+            "shares": 299,
+            "weight": 0.1454
+        },
+        {
+            "asset_type": "stock",
+            "code": "NN NA",
+            "name": "NN Group NV",
+            "shares": 384,
+            "weight": 0.1452
+        },
+        {
+            "asset_type": "stock",
+            "code": "GMAB DC",
+            "name": "GENMAB A/S",
+            "shares": 80,
+            "weight": 0.1439
+        },
+        {
+            "asset_type": "stock",
+            "code": "SCMN SE",
+            "name": "Swisscom AG",
+            "shares": 36,
+            "weight": 0.1439
+        },
+        {
+            "asset_type": "stock",
+            "code": "REP SQ",
+            "name": "Repsol SA",
+            "shares": 1597,
+            "weight": 0.1438
+        },
+        {
+            "asset_type": "stock",
+            "code": "LGEN LN",
+            "name": "Legal & General Group PLC",
+            "shares": 8291,
+            "weight": 0.1433
+        },
+        {
+            "asset_type": "stock",
+            "code": "SHBA SS",
+            "name": "Svenska Handelsbanken AB",
+            "shares": 2016,
+            "weight": 0.1429
+        },
+        {
+            "asset_type": "stock",
+            "code": "CLNX SQ",
+            "name": "CELLNEX TELECOM S.A.U.",
+            "shares": 785,
+            "weight": 0.1417
+        },
+        {
+            "asset_type": "stock",
+            "code": "AENA SQ",
+            "name": "AENA SME SA",
+            "shares": 951,
+            "weight": 0.1402
+        },
+        {
+            "asset_type": "stock",
+            "code": "PKO PW",
+            "name": "PKO BANK POLSKI SA",
+            "shares": 1232,
+            "weight": 0.1375
+        },
+        {
+            "asset_type": "stock",
+            "code": "HNR1 GY",
+            "name": "HANNOVER RUECKVERSICHERU-REG",
+            "shares": 86,
+            "weight": 0.1371
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAABB SS",
+            "name": "SAAB AB",
+            "shares": 485,
+            "weight": 0.1337
+        },
+        {
+            "asset_type": "stock",
+            "code": "AIBG ID",
+            "name": "AIB GROUP PLC",
+            "shares": 2754,
+            "weight": 0.1325
+        },
+        {
+            "asset_type": "stock",
+            "code": "ESSITYB SS",
+            "name": "Essity AB",
+            "shares": 891,
+            "weight": 0.1318
+        },
+        {
+            "asset_type": "stock",
+            "code": "HLMA LN",
+            "name": "HALMA PLC",
+            "shares": 522,
+            "weight": 0.1316
+        },
+        {
+            "asset_type": "stock",
+            "code": "SGSN SE",
+            "name": "SGS SA-REG",
+            "shares": 219,
+            "weight": 0.1296
+        },
+        {
+            "asset_type": "stock",
+            "code": "MT NA",
+            "name": "ArcelorMittal",
+            "shares": 608,
+            "weight": 0.1265
+        },
+        {
+            "asset_type": "stock",
+            "code": "KYGA ID",
+            "name": "KERRY GROUP PLC",
+            "shares": 251,
+            "weight": 0.1214
+        },
+        {
+            "asset_type": "stock",
+            "code": "EQNR NO",
+            "name": "EQUINOR ASA",
+            "shares": 958,
+            "weight": 0.1209
+        },
+        {
+            "asset_type": "stock",
+            "code": "MRK GY",
+            "name": "MERCK KGAA",
+            "shares": 171,
+            "weight": 0.1204
+        },
+        {
+            "asset_type": "stock",
+            "code": "ACS SQ",
+            "name": "ACS Actividades Cons y Serv",
+            "shares": 263,
+            "weight": 0.1196
+        },
+        {
+            "asset_type": "stock",
+            "code": "BIRG ID",
+            "name": "BANK OF IRELAND GROUP PLC",
+            "shares": 1366,
+            "weight": 0.1185
+        },
+        {
+            "asset_type": "stock",
+            "code": "INF LN",
+            "name": "INFORMA PLC",
+            "shares": 1771,
+            "weight": 0.118
+        },
+        {
+            "asset_type": "stock",
+            "code": "DSFIR NA",
+            "name": "DSM-FIRMENICH AG",
+            "shares": 246,
+            "weight": 0.1161
+        },
+        {
+            "asset_type": "stock",
+            "code": "SN/ LN",
+            "name": "Smith & Nephew PLC",
+            "shares": 1187,
+            "weight": 0.1153
+        },
+        {
+            "asset_type": "stock",
+            "code": "EDP PL",
+            "name": "EDP SA",
+            "shares": 4160,
+            "weight": 0.1152
+        },
+        {
+            "asset_type": "stock",
+            "code": "WRT1V FH",
+            "name": "WARTSILA OYJ",
+            "shares": 690,
+            "weight": 0.1151
+        },
+        {
+            "asset_type": "stock",
+            "code": "SHL GY",
+            "name": "SIEMENS HEALTHINEERS AG",
+            "shares": 382,
+            "weight": 0.1145
+        },
+        {
+            "asset_type": "stock",
+            "code": "INVEA SS",
+            "name": "INVESTOR AB-A SHS",
+            "shares": 651,
+            "weight": 0.1144
+        },
+        {
+            "asset_type": "stock",
+            "code": "LOGN SE",
+            "name": "LOGITECH INTERNATIONAL-REG",
+            "shares": 195,
+            "weight": 0.1143
+        },
+        {
+            "asset_type": "stock",
+            "code": "SOON SE",
+            "name": "SONOVA HOLDING AG-REG",
+            "shares": 77,
+            "weight": 0.1142
+        },
+        {
+            "asset_type": "stock",
+            "code": "UPM FH",
+            "name": "UPM-KYMMENE OYJ",
+            "shares": 810,
+            "weight": 0.1119
+        },
+        {
+            "asset_type": "stock",
+            "code": "SCHP SE",
+            "name": "Schindler Holding (Cert)",
+            "shares": 55,
+            "weight": 0.1117
+        },
+        {
+            "asset_type": "stock",
+            "code": "ABN NA",
+            "name": "ABN AMRO BANK NV-CVA",
+            "shares": 672,
+            "weight": 0.1091
+        },
+        {
+            "asset_type": "stock",
+            "code": "PKN PW",
+            "name": "ORLEN SA",
+            "shares": 787,
+            "weight": 0.1048
+        },
+        {
+            "asset_type": "stock",
+            "code": "BOL SS",
+            "name": "BOLIDEN AB",
+            "shares": 437,
+            "weight": 0.1039
+        },
+        {
+            "asset_type": "stock",
+            "code": "TRN IM",
+            "name": "TERNA SPA",
+            "shares": 1837,
+            "weight": 0.1034
+        },
+        {
+            "asset_type": "stock",
+            "code": "SY1 GY",
+            "name": "Symrise AG",
+            "shares": 208,
+            "weight": 0.1032
+        },
+        {
+            "asset_type": "stock",
+            "code": "EPIA SS",
+            "name": "EPIROC AB-A",
+            "shares": 848,
+            "weight": 0.1031
+        },
+        {
+            "asset_type": "stock",
+            "code": "BPE IM",
+            "name": "BPER BANCA SPA",
+            "shares": 1731,
+            "weight": 0.1024
+        },
+        {
+            "asset_type": "stock",
+            "code": "SGE LN",
+            "name": "Sage Group PLC/The",
+            "shares": 1218,
+            "weight": 0.1022
+        },
+        {
+            "asset_type": "stock",
+            "code": "BAER SE",
+            "name": "Julius Baer Group Ltd",
+            "shares": 276,
+            "weight": 0.1016
+        },
+        {
+            "asset_type": "stock",
+            "code": "BT/A LN",
+            "name": "BT Group PLC",
+            "shares": 7676,
+            "weight": 0.1012
+        },
+        {
+            "asset_type": "stock",
+            "code": "RTO LN",
+            "name": "RENTOKIL INITIAL PLC",
+            "shares": 3507,
+            "weight": 0.1012
+        },
+        {
+            "asset_type": "stock",
+            "code": "FBK IM",
+            "name": "Finecobank",
+            "shares": 828,
+            "weight": 0.0992
+        },
+        {
+            "asset_type": "stock",
+            "code": "ALFA SS",
+            "name": "ALFA LAVAL AB",
+            "shares": 380,
+            "weight": 0.0988
+        },
+        {
+            "asset_type": "stock",
+            "code": "AKZA NA",
+            "name": "Akzo Nobel NV",
+            "shares": 249,
+            "weight": 0.0958
+        },
+        {
+            "asset_type": "stock",
+            "code": "HEN3 GY",
+            "name": "Henkel AG & Co KGaA VORZUG",
+            "shares": 214,
+            "weight": 0.0955
+        },
+        {
+            "asset_type": "stock",
+            "code": "IAG LN",
+            "name": "INTL CONSOLIDATED AIRLINE-DI",
+            "shares": 3234,
+            "weight": 0.0952
+        },
+        {
+            "asset_type": "stock",
+            "code": "MONC IM",
+            "name": "Moncler",
+            "shares": 285,
+            "weight": 0.0948
+        },
+        {
+            "asset_type": "stock",
+            "code": "CNA LN",
+            "name": "Centrica PLC",
+            "shares": 7405,
+            "weight": 0.094
+        },
+        {
+            "asset_type": "stock",
+            "code": "SGRO LN",
+            "name": "SEGRO PLC",
+            "shares": 1882,
+            "weight": 0.092
+        },
+        {
+            "asset_type": "stock",
+            "code": "KSP ID",
+            "name": "KINGSPAN GROUP PLC",
+            "shares": 207,
+            "weight": 0.0918
+        },
+        {
+            "asset_type": "stock",
+            "code": "VACN SE",
+            "name": "VAT GROUP AG",
+            "shares": 39,
+            "weight": 0.0917
+        },
+        {
+            "asset_type": "stock",
+            "code": "ELE SQ",
+            "name": "Endesa",
+            "shares": 495,
+            "weight": 0.0911
+        },
+        {
+            "asset_type": "stock",
+            "code": "SRG IM",
+            "name": "Snam SpA",
+            "shares": 2756,
+            "weight": 0.0908
+        },
+        {
+            "asset_type": "stock",
+            "code": "ENX FP",
+            "name": "EURONEXT NV",
+            "shares": 114,
+            "weight": 0.0901
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADM LN",
+            "name": "ADMIRAL GROUP PLC",
+            "shares": 381,
+            "weight": 0.0896
+        },
+        {
+            "asset_type": "stock",
+            "code": "SMIN LN",
+            "name": "SMITHS GROUP PLC",
+            "shares": 522,
+            "weight": 0.0895
+        },
+        {
+            "asset_type": "stock",
+            "code": "AGS BB",
+            "name": "AGEAS",
+            "shares": 241,
+            "weight": 0.0879
+        },
+        {
+            "asset_type": "stock",
+            "code": "ITRK LN",
+            "name": "Intertek Group PLC",
+            "shares": 248,
+            "weight": 0.0874
+        },
+        {
+            "asset_type": "stock",
+            "code": "UU/ LN",
+            "name": "UNITED UTILITIES GROUP PLC",
+            "shares": 1008,
+            "weight": 0.0872
+        },
+        {
+            "asset_type": "stock",
+            "code": "PST IM",
+            "name": "Poste Italiane",
+            "shares": 674,
+            "weight": 0.0865
+        },
+        {
+            "asset_type": "stock",
+            "code": "KOG NO",
+            "name": "KONGSBERG GRUPPEN ASA",
+            "shares": 539,
+            "weight": 0.0862
+        },
+        {
+            "asset_type": "stock",
+            "code": "BNZL LN",
+            "name": "BUNZL PLC",
+            "shares": 493,
+            "weight": 0.0861
+        },
+        {
+            "asset_type": "stock",
+            "code": "COLOB DC",
+            "name": "COLOPLAST-B",
+            "shares": 171,
+            "weight": 0.0843
+        },
+        {
+            "asset_type": "stock",
+            "code": "CARLB DC",
+            "name": "CARLSBERG AS-B",
+            "shares": 128,
+            "weight": 0.0841
+        },
+        {
+            "asset_type": "stock",
+            "code": "SPSN SE",
+            "name": "SWISS PRIME SITE-REG",
+            "shares": 108,
+            "weight": 0.0827
+        },
+        {
+            "asset_type": "stock",
+            "code": "ASRNL NA",
+            "name": "ASR NEDERLAND NV",
+            "shares": 228,
+            "weight": 0.0825
+        },
+        {
+            "asset_type": "stock",
+            "code": "BALN SE",
+            "name": "BALOISE HOLDING AG - REG",
+            "shares": 61,
+            "weight": 0.082
+        },
+        {
+            "asset_type": "stock",
+            "code": "RO SE",
+            "name": "Roche Hldgs (BR)",
+            "shares": 40,
+            "weight": 0.0809
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEL NO",
+            "name": "TELENOR ASA",
+            "shares": 905,
+            "weight": 0.0805
+        },
+        {
+            "asset_type": "stock",
+            "code": "BESI NA",
+            "name": "BE SEMICONDUCTOR INDUSTRIES",
+            "shares": 88,
+            "weight": 0.0804
+        },
+        {
+            "asset_type": "stock",
+            "code": "STMN SE",
+            "name": "Straumann Hld N",
+            "shares": 134,
+            "weight": 0.08
+        },
+        {
+            "asset_type": "stock",
+            "code": "METSO FH",
+            "name": "METSO OYJ",
+            "shares": 1077,
+            "weight": 0.0797
+        },
+        {
+            "asset_type": "stock",
+            "code": "CCH LN",
+            "name": "Coca-Cola HBC AG",
+            "shares": 313,
+            "weight": 0.0792
+        },
+        {
+            "asset_type": "stock",
+            "code": "ANTO LN",
+            "name": "ANTOFAGASTA PLC",
+            "shares": 389,
+            "weight": 0.0785
+        },
+        {
+            "asset_type": "stock",
+            "code": "BEI GY",
+            "name": "Beiersdorf AG",
+            "shares": 131,
+            "weight": 0.077
+        },
+        {
+            "asset_type": "stock",
+            "code": "KNIN SE",
+            "name": "KUEHNE & NAGEL INTL AG-REG",
+            "shares": 72,
+            "weight": 0.0748
+        },
+        {
+            "asset_type": "stock",
+            "code": "BVI FP",
+            "name": "BUREAU VERITAS SA",
+            "shares": 428,
+            "weight": 0.0737
+        },
+        {
+            "asset_type": "stock",
+            "code": "PNDORA DC",
+            "name": "PANDORA A/S",
+            "shares": 105,
+            "weight": 0.0728
+        },
+        {
+            "asset_type": "stock",
+            "code": "AC FP",
+            "name": "ACCOR SA",
+            "shares": 276,
+            "weight": 0.0718
+        },
+        {
+            "asset_type": "stock",
+            "code": "HMB SS",
+            "name": "Hennes & Mauritz AB",
+            "shares": 717,
+            "weight": 0.0718
+        },
+        {
+            "asset_type": "stock",
+            "code": "MOWI NO",
+            "name": "MOWI ASA",
+            "shares": 584,
+            "weight": 0.0714
+        },
+        {
+            "asset_type": "stock",
+            "code": "FME GY",
+            "name": "Fresenius Medical Care AG & Co KGaA",
+            "shares": 241,
+            "weight": 0.0705
+        },
+        {
+            "asset_type": "stock",
+            "code": "EDV LN",
+            "name": "ENDEAVOUR MINING PLC",
+            "shares": 273,
+            "weight": 0.0702
+        },
+        {
+            "asset_type": "stock",
+            "code": "EXO NA",
+            "name": "EXOR NV",
+            "shares": 146,
+            "weight": 0.0701
+        },
+        {
+            "asset_type": "stock",
+            "code": "EVO SS",
+            "name": "EVOLUTION AB",
+            "shares": 168,
+            "weight": 0.0688
+        },
+        {
+            "asset_type": "stock",
+            "code": "MKS LN",
+            "name": "MARKS & SPENCER GROUP PLC",
+            "shares": 2388,
+            "weight": 0.0688
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEL2B SS",
+            "name": "TELE2 AB-B SHS",
+            "shares": 761,
+            "weight": 0.0688
+        },
+        {
+            "asset_type": "stock",
+            "code": "PSON LN",
+            "name": "PEARSON PLC",
+            "shares": 864,
+            "weight": 0.0685
+        },
+        {
+            "asset_type": "stock",
+            "code": "AGN NA",
+            "name": "Aegon NV",
+            "shares": 1619,
+            "weight": 0.0671
+        },
+        {
+            "asset_type": "stock",
+            "code": "G1A GY",
+            "name": "GEA GROUP AG",
+            "shares": 169,
+            "weight": 0.0665
+        },
+        {
+            "asset_type": "stock",
+            "code": "URW FP",
+            "name": "UNIBAIL-RODAMCO-WESTFIELD",
+            "shares": 114,
+            "weight": 0.0648
+        },
+        {
+            "asset_type": "stock",
+            "code": "MRO LN",
+            "name": "MELROSE INDUSTRIES PLC",
+            "shares": 1434,
+            "weight": 0.0641
+        },
+        {
+            "asset_type": "stock",
+            "code": "DPLM LN",
+            "name": "DIPLOMA PLC",
+            "shares": 163,
+            "weight": 0.0629
+        },
+        {
+            "asset_type": "stock",
+            "code": "SBRY LN",
+            "name": "SAINSBURY (J) PLC",
+            "shares": 2565,
+            "weight": 0.0627
+        },
+        {
+            "asset_type": "stock",
+            "code": "ALO FP",
+            "name": "ALSTOM",
+            "shares": 445,
+            "weight": 0.0625
+        },
+        {
+            "asset_type": "stock",
+            "code": "ERF FP",
+            "name": "EUROFINS SCIENTIFIC",
+            "shares": 156,
+            "weight": 0.0623
+        },
+        {
+            "asset_type": "stock",
+            "code": "WEIR LN",
+            "name": "WEIR GROUP PLC/THE",
+            "shares": 302,
+            "weight": 0.0622
+        },
+        {
+            "asset_type": "stock",
+            "code": "QIA GY",
+            "name": "QIAGEN NV",
+            "shares": 237,
+            "weight": 0.0615
+        },
+        {
+            "asset_type": "stock",
+            "code": "PZU PW",
+            "name": "POWSZECHNY ZAKLAD UBEZPIECZE",
+            "shares": 745,
+            "weight": 0.061
+        },
+        {
+            "asset_type": "stock",
+            "code": "BKT SQ",
+            "name": "Bankinter",
+            "shares": 724,
+            "weight": 0.0609
+        },
+        {
+            "asset_type": "stock",
+            "code": "LI FP",
+            "name": "KLEPIERRE",
+            "shares": 289,
+            "weight": 0.0603
+        },
+        {
+            "asset_type": "stock",
+            "code": "BEAN SE",
+            "name": "BELIMO HOLDING AG-REG",
+            "shares": 11,
+            "weight": 0.0602
+        },
+        {
+            "asset_type": "stock",
+            "code": "STJ LN",
+            "name": "ST JAMES'S PLACE PLC",
+            "shares": 616,
+            "weight": 0.0599
+        },
+        {
+            "asset_type": "stock",
+            "code": "NESTE FH",
+            "name": "NESTE OYJ",
+            "shares": 570,
+            "weight": 0.0598
+        },
+        {
+            "asset_type": "stock",
+            "code": "SCAB SS",
+            "name": "SVENSKA CELLULOSA AB-B SHS",
+            "shares": 841,
+            "weight": 0.0588
+        },
+        {
+            "asset_type": "stock",
+            "code": "SKAB SS",
+            "name": "SKANSKA AB-B SHS",
+            "shares": 383,
+            "weight": 0.0576
+        },
+        {
+            "asset_type": "stock",
+            "code": "BCP PL",
+            "name": "BANCO COMERCIAL PORTUGUES SA",
+            "shares": 11975,
+            "weight": 0.0574
+        },
+        {
+            "asset_type": "stock",
+            "code": "UNI IM",
+            "name": "UNIPOL GRUPPO SPA",
+            "shares": 494,
+            "weight": 0.0571
+        },
+        {
+            "asset_type": "stock",
+            "code": "WISE LN",
+            "name": "WISE PLC",
+            "shares": 814,
+            "weight": 0.0571
+        },
+        {
+            "asset_type": "stock",
+            "code": "GBLB BB",
+            "name": "GROUPE BRUXELLES LAMBERT SA",
+            "shares": 116,
+            "weight": 0.0568
+        },
+        {
+            "asset_type": "stock",
+            "code": "SVT LN",
+            "name": "SEVERN TRENT PLC",
+            "shares": 287,
+            "weight": 0.0567
+        },
+        {
+            "asset_type": "stock",
+            "code": "ABF LN",
+            "name": "Associated British Foods PLC",
+            "shares": 348,
+            "weight": 0.0559
+        },
+        {
+            "asset_type": "stock",
+            "code": "IMI LN",
+            "name": "IMI PLC",
+            "shares": 337,
+            "weight": 0.0559
+        },
+        {
+            "asset_type": "stock",
+            "code": "HELN SE",
+            "name": "Helvetia Holding AG",
+            "shares": 42,
+            "weight": 0.0558
+        },
+        {
+            "asset_type": "stock",
+            "code": "TRELB SS",
+            "name": "TRELLEBORG AB-B SHS",
+            "shares": 271,
+            "weight": 0.0557
+        },
+        {
+            "asset_type": "stock",
+            "code": "SKFB SS",
+            "name": "SKF AB-B SHARES",
+            "shares": 409,
+            "weight": 0.0551
+        },
+        {
+            "asset_type": "stock",
+            "code": "ORNBV FH",
+            "name": "ORION OYJ-CLASS B",
+            "shares": 129,
+            "weight": 0.055
+        },
+        {
+            "asset_type": "stock",
+            "code": "PEO PW",
+            "name": "BANK PEKAO SA",
+            "shares": 198,
+            "weight": 0.0547
+        },
+        {
+            "asset_type": "stock",
+            "code": "ICG LN",
+            "name": "ICG PLC",
+            "shares": 368,
+            "weight": 0.0544
+        },
+        {
+            "asset_type": "stock",
+            "code": "KGF LN",
+            "name": "KINGFISHER PLC",
+            "shares": 2475,
+            "weight": 0.0543
+        },
+        {
+            "asset_type": "stock",
+            "code": "RXL FP",
+            "name": "REXEL SA",
+            "shares": 301,
+            "weight": 0.0543
+        },
+        {
+            "asset_type": "stock",
+            "code": "NHY NO",
+            "name": "NORSK HYDRO ASA",
+            "shares": 1444,
+            "weight": 0.054
+        },
+        {
+            "asset_type": "stock",
+            "code": "HEIO NA",
+            "name": "Heineken Holding NV",
+            "shares": 141,
+            "weight": 0.0538
+        },
+        {
+            "asset_type": "stock",
+            "code": "MAERSKB DC",
+            "name": "AP MOLLER-MAERSK A/S-B",
+            "shares": 5,
+            "weight": 0.0537
+        },
+        {
+            "asset_type": "stock",
+            "code": "AUTO LN",
+            "name": "Auto Trader Group",
+            "shares": 952,
+            "weight": 0.0535
+        },
+        {
+            "asset_type": "stock",
+            "code": "EN FP",
+            "name": "Bouygues SA",
+            "shares": 204,
+            "weight": 0.0532
+        },
+        {
+            "asset_type": "stock",
+            "code": "FGR FP",
+            "name": "EIFFAGE",
+            "shares": 74,
+            "weight": 0.0526
+        },
+        {
+            "asset_type": "stock",
+            "code": "ORK NO",
+            "name": "ORKLA ASA",
+            "shares": 926,
+            "weight": 0.0525
+        },
+        {
+            "asset_type": "stock",
+            "code": "YAR NO",
+            "name": "YARA INTERNATIONAL ASA",
+            "shares": 254,
+            "weight": 0.052
+        },
+        {
+            "asset_type": "stock",
+            "code": "TELIA SS",
+            "name": "Telia Co AB",
+            "shares": 2517,
+            "weight": 0.0519
+        },
+        {
+            "asset_type": "stock",
+            "code": "GALP PL",
+            "name": "GALP ENERGIA SGPS SA-B SHRS",
+            "shares": 514,
+            "weight": 0.0515
+        },
+        {
+            "asset_type": "stock",
+            "code": "WTB LN",
+            "name": "WHITBREAD PLC",
+            "shares": 246,
+            "weight": 0.0515
+        },
+        {
+            "asset_type": "stock",
+            "code": "G24 GY",
+            "name": "SCOUT24 SE",
+            "shares": 79,
+            "weight": 0.051
+        },
+        {
+            "asset_type": "stock",
+            "code": "BMPS IM",
+            "name": "BANCA MONTE DEI PASCHI DI SIEN",
+            "shares": 1135,
+            "weight": 0.0508
+        },
+        {
+            "asset_type": "stock",
+            "code": "TLX GY",
+            "name": "Talanx AG",
+            "shares": 73,
+            "weight": 0.0504
+        },
+        {
+            "asset_type": "stock",
+            "code": "LOTB BB",
+            "name": "LOTUS BAKERIES NV",
+            "shares": 1,
+            "weight": 0.0503
+        },
+        {
+            "asset_type": "stock",
+            "code": "ALE PW",
+            "name": "ALLEGRO.EU SA",
+            "shares": 1001,
+            "weight": 0.05
+        },
+        {
+            "asset_type": "stock",
+            "code": "MNG LN",
+            "name": "M&G PLC",
+            "shares": 2664,
+            "weight": 0.05
+        },
+        {
+            "asset_type": "stock",
+            "code": "REC IM",
+            "name": "RECORDATI SPA",
+            "shares": 151,
+            "weight": 0.0497
+        },
+        {
+            "asset_type": "stock",
+            "code": "BEIJB SS",
+            "name": "BEIJER REF AB",
+            "shares": 579,
+            "weight": 0.0496
+        },
+        {
+            "asset_type": "stock",
+            "code": "RNO FP",
+            "name": "Renault SA",
+            "shares": 232,
+            "weight": 0.0496
+        },
+        {
+            "asset_type": "stock",
+            "code": "AKRBP NO",
+            "name": "AKER BP ASA",
+            "shares": 370,
+            "weight": 0.0495
+        },
+        {
+            "asset_type": "stock",
+            "code": "DCC LN",
+            "name": "DCC",
+            "shares": 146,
+            "weight": 0.0493
+        },
+        {
+            "asset_type": "stock",
+            "code": "LPP PW",
+            "name": "LPP SA",
+            "shares": 2,
+            "weight": 0.0493
+        },
+        {
+            "asset_type": "stock",
+            "code": "RED SQ",
+            "name": "REDEIA CORP SA",
+            "shares": 467,
+            "weight": 0.0493
+        },
+        {
+            "asset_type": "stock",
+            "code": "FORTUM FH",
+            "name": "FORTUM OYJ",
+            "shares": 435,
+            "weight": 0.0488
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEN IM",
+            "name": "TENARIS SA",
+            "shares": 520,
+            "weight": 0.0488
+        },
+        {
+            "asset_type": "stock",
+            "code": "BEZ LN",
+            "name": "BEAZLEY PLC",
+            "shares": 748,
+            "weight": 0.0486
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADDTB SS",
+            "name": "ADDTECH AB",
+            "shares": 280,
+            "weight": 0.0485
+        },
+        {
+            "asset_type": "stock",
+            "code": "SECUB SS",
+            "name": "SECURITAS AB-B SHS",
+            "shares": 608,
+            "weight": 0.0485
+        },
+        {
+            "asset_type": "stock",
+            "code": "SCHN SE",
+            "name": "Schindler Holding (Reg)",
+            "shares": 25,
+            "weight": 0.0484
+        },
+        {
+            "asset_type": "stock",
+            "code": "PHNX LN",
+            "name": "PHOENIX GROUP HOLDINGS",
+            "shares": 1007,
+            "weight": 0.0482
+        },
+        {
+            "asset_type": "stock",
+            "code": "CON GY",
+            "name": "Continental AG",
+            "shares": 140,
+            "weight": 0.0481
+        },
+        {
+            "asset_type": "stock",
+            "code": "HSX LN",
+            "name": "HISCOX LTD",
+            "shares": 484,
+            "weight": 0.048
+        },
+        {
+            "asset_type": "stock",
+            "code": "CA FP",
+            "name": "Carrefour SA",
+            "shares": 571,
+            "weight": 0.0479
+        },
+        {
+            "asset_type": "stock",
+            "code": "HWDN LN",
+            "name": "HOWDEN JOINERY GROUP PLC",
+            "shares": 806,
+            "weight": 0.0478
+        },
+        {
+            "asset_type": "stock",
+            "code": "MRL SQ",
+            "name": "Merlin Properties Socimi SA",
+            "shares": 557,
+            "weight": 0.0477
+        },
+        {
+            "asset_type": "stock",
+            "code": "LAND LN",
+            "name": "LAND SECURITIES GROUP PLC",
+            "shares": 1059,
+            "weight": 0.0476
+        },
+        {
+            "asset_type": "stock",
+            "code": "PSPN SE",
+            "name": "PSP SWISS PROPERTY AG",
+            "shares": 51,
+            "weight": 0.0476
+        },
+        {
+            "asset_type": "stock",
+            "code": "SCR FP",
+            "name": "SCOR SE",
+            "shares": 249,
+            "weight": 0.0476
+        },
+        {
+            "asset_type": "stock",
+            "code": "ORSTED DC",
+            "name": "ORSTED AS",
+            "shares": 462,
+            "weight": 0.047
+        },
+        {
+            "asset_type": "stock",
+            "code": "LIFCOB SS",
+            "name": "LIFCO AB-B SHS",
+            "shares": 246,
+            "weight": 0.0468
+        },
+        {
+            "asset_type": "stock",
+            "code": "ENT LN",
+            "name": "ENTAIN PLC",
+            "shares": 766,
+            "weight": 0.0464
+        },
+        {
+            "asset_type": "stock",
+            "code": "DIM FP",
+            "name": "SARTORIUS STEDIM BIOTECH",
+            "shares": 36,
+            "weight": 0.0462
+        },
+        {
+            "asset_type": "stock",
+            "code": "KBX GY",
+            "name": "KNORR-BREMSE AG",
+            "shares": 92,
+            "weight": 0.0461
+        },
+        {
+            "asset_type": "stock",
+            "code": "EPIB SS",
+            "name": "EPIROC AB-B",
+            "shares": 424,
+            "weight": 0.0459
+        },
+        {
+            "asset_type": "stock",
+            "code": "TRYG DC",
+            "name": "TRYG A/S",
+            "shares": 338,
+            "weight": 0.0456
+        },
+        {
+            "asset_type": "stock",
+            "code": "JDEP NA",
+            "name": "JDE PEET'S BV",
+            "shares": 230,
+            "weight": 0.0453
+        },
+        {
+            "asset_type": "stock",
+            "code": "KESKOB FH",
+            "name": "Kesko B",
+            "shares": 379,
+            "weight": 0.0452
+        },
+        {
+            "asset_type": "stock",
+            "code": "HEN GY",
+            "name": "Henkel AG & Co KGaA",
+            "shares": 111,
+            "weight": 0.0451
+        },
+        {
+            "asset_type": "stock",
+            "code": "JMT PL",
+            "name": "JERONIMO MARTINS",
+            "shares": 345,
+            "weight": 0.045
+        },
+        {
+            "asset_type": "stock",
+            "code": "AM FP",
+            "name": "Dassault Aviation S.A.",
+            "shares": 26,
+            "weight": 0.0448
+        },
+        {
+            "asset_type": "stock",
+            "code": "IG IM",
+            "name": "Italgas",
+            "shares": 847,
+            "weight": 0.0447
+        },
+        {
+            "asset_type": "stock",
+            "code": "BTRW LN",
+            "name": "BARRATT REDROW PLC",
+            "shares": 1573,
+            "weight": 0.0445
+        },
+        {
+            "asset_type": "stock",
+            "code": "BRBY LN",
+            "name": "Burberry Group PLC",
+            "shares": 513,
+            "weight": 0.0444
+        },
+        {
+            "asset_type": "stock",
+            "code": "GF SE",
+            "name": "GEORG FISCHER AG",
+            "shares": 111,
+            "weight": 0.0444
+        },
+        {
+            "asset_type": "stock",
+            "code": "LEG GY",
+            "name": "LEG IMMOBILIEN SE",
+            "shares": 101,
+            "weight": 0.0443
+        },
+        {
+            "asset_type": "stock",
+            "code": "DNP PW",
+            "name": "DINO POLSKA SA",
+            "shares": 670,
+            "weight": 0.0441
+        },
+        {
+            "asset_type": "stock",
+            "code": "ELISA FH",
+            "name": "ELISA OYJ",
+            "shares": 161,
+            "weight": 0.044
+        },
+        {
+            "asset_type": "stock",
+            "code": "OMV AV",
+            "name": "OMV AG",
+            "shares": 160,
+            "weight": 0.044
+        },
+        {
+            "asset_type": "stock",
+            "code": "NEM GY",
+            "name": "NEMETSCHEK SE",
+            "shares": 66,
+            "weight": 0.0437
+        },
+        {
+            "asset_type": "stock",
+            "code": "RMV LN",
+            "name": "RIGHTMOVE PLC",
+            "shares": 884,
+            "weight": 0.0435
+        },
+        {
+            "asset_type": "stock",
+            "code": "MTLN LN",
+            "name": "METLEN ENERGY & METALS PLC",
+            "shares": 163,
+            "weight": 0.0433
+        },
+        {
+            "asset_type": "stock",
+            "code": "CTEC LN",
+            "name": "ConvaTec Group",
+            "shares": 2432,
+            "weight": 0.0427
+        },
+        {
+            "asset_type": "stock",
+            "code": "SYENS BB",
+            "name": "SYENSQO SA",
+            "shares": 101,
+            "weight": 0.0427
+        },
+        {
+            "asset_type": "stock",
+            "code": "FRES LN",
+            "name": "FRESNILLO PLC",
+            "shares": 224,
+            "weight": 0.0426
+        },
+        {
+            "asset_type": "stock",
+            "code": "ACKB BB",
+            "name": "ACKERMANS & VAN HAAREN",
+            "shares": 31,
+            "weight": 0.0425
+        },
+        {
+            "asset_type": "stock",
+            "code": "BIM FP",
+            "name": "BIOMERIEUX",
+            "shares": 61,
+            "weight": 0.0423
+        },
+        {
+            "asset_type": "stock",
+            "code": "BNR GY",
+            "name": "BRENNTAG SE",
+            "shares": 138,
+            "weight": 0.0422
+        },
+        {
+            "asset_type": "stock",
+            "code": "EDEN FP",
+            "name": "EDENRED",
+            "shares": 324,
+            "weight": 0.042
+        },
+        {
+            "asset_type": "stock",
+            "code": "CRDA LN",
+            "name": "CRODA INTERNATIONAL PLC",
+            "shares": 199,
+            "weight": 0.0417
+        },
+        {
+            "asset_type": "stock",
+            "code": "STERV FH",
+            "name": "STORA ENSO OYJ-R SHS",
+            "shares": 763,
+            "weight": 0.0416
+        },
+        {
+            "asset_type": "stock",
+            "code": "GJF NO",
+            "name": "GJENSIDIGE FORSIKRING ASA",
+            "shares": 273,
+            "weight": 0.0412
+        },
+        {
+            "asset_type": "stock",
+            "code": "SPX LN",
+            "name": "SPIRAX-SARCO ENGINEERING PLC",
+            "shares": 83,
+            "weight": 0.0409
+        },
+        {
+            "asset_type": "stock",
+            "code": "SW FP",
+            "name": "SODEXO SA",
+            "shares": 120,
+            "weight": 0.0409
+        },
+        {
+            "asset_type": "stock",
+            "code": "INDT SS",
+            "name": "INDUTRADE AB",
+            "shares": 300,
+            "weight": 0.04
+        },
+        {
+            "asset_type": "stock",
+            "code": "GFC FP",
+            "name": "Gecina SA",
+            "shares": 76,
+            "weight": 0.0394
+        },
+        {
+            "asset_type": "stock",
+            "code": "INDUC SS",
+            "name": "Industrivarden AB C Free",
+            "shares": 178,
+            "weight": 0.0394
+        },
+        {
+            "asset_type": "stock",
+            "code": "AAK SS",
+            "name": "AAK AB",
+            "shares": 267,
+            "weight": 0.0389
+        },
+        {
+            "asset_type": "stock",
+            "code": "EVD GY",
+            "name": "CTS EVENTIM",
+            "shares": 80,
+            "weight": 0.0389
+        },
+        {
+            "asset_type": "stock",
+            "code": "NIBEB SS",
+            "name": "NIBE INDUSTRIER AB-B SHS",
+            "shares": 1862,
+            "weight": 0.0387
+        },
+        {
+            "asset_type": "stock",
+            "code": "BMW3 GY",
+            "name": "BMW AG Pref",
+            "shares": 83,
+            "weight": 0.0386
+        },
+        {
+            "asset_type": "stock",
+            "code": "SOBI SS",
+            "name": "SWEDISH ORPHAN BIOVITRUM AB",
+            "shares": 216,
+            "weight": 0.0384
+        },
+        {
+            "asset_type": "stock",
+            "code": "IMCD NA",
+            "name": "IMCD NV",
+            "shares": 67,
+            "weight": 0.0379
+        },
+        {
+            "asset_type": "stock",
+            "code": "FHZN SE",
+            "name": "Flughafen Zurich",
+            "shares": 23,
+            "weight": 0.0377
+        },
+        {
+            "asset_type": "stock",
+            "code": "ZAL GY",
+            "name": "Zalando SE",
+            "shares": 219,
+            "weight": 0.0367
+        },
+        {
+            "asset_type": "stock",
+            "code": "UHR SE",
+            "name": "Swatch Group AG/The",
+            "shares": 31,
+            "weight": 0.0366
+        },
+        {
+            "asset_type": "stock",
+            "code": "RAND NA",
+            "name": "RANDSTAD NV",
+            "shares": 155,
+            "weight": 0.0363
+        },
+        {
+            "asset_type": "stock",
+            "code": "LHA GY",
+            "name": "DEUTSCHE LUFTHANSA-REG",
+            "shares": 737,
+            "weight": 0.0341
+        },
+        {
+            "asset_type": "stock",
+            "code": "DHER GY",
+            "name": "DELIVERY HERO SE",
+            "shares": 226,
+            "weight": 0.033
+        },
+        {
+            "asset_type": "stock",
+            "code": "HOT GY",
+            "name": "HOCHTIEF AG",
+            "shares": 20,
+            "weight": 0.0329
+        },
+        {
+            "asset_type": "stock",
+            "code": "MNDI LN",
+            "name": "MONDI PLC",
+            "shares": 536,
+            "weight": 0.0321
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADP FP",
+            "name": "ADP",
+            "shares": 43,
+            "weight": 0.0319
+        },
+        {
+            "asset_type": "stock",
+            "code": "WPP LN",
+            "name": "WPP PLC",
+            "shares": 1205,
+            "weight": 0.0312
+        },
+        {
+            "asset_type": "stock",
+            "code": "ANA SQ",
+            "name": "Acciona S.A.",
+            "shares": 26,
+            "weight": 0.0309
+        },
+        {
+            "asset_type": "stock",
+            "code": "VOLVA SS",
+            "name": "VOLVO AB",
+            "shares": 200,
+            "weight": 0.0306
+        },
+        {
+            "asset_type": "stock",
+            "code": "ELI BB",
+            "name": "ELIA GROUP SA/NV",
+            "shares": 45,
+            "weight": 0.0302
+        },
+        {
+            "asset_type": "stock",
+            "code": "SPL PW",
+            "name": "SANTANDER BANK POLSKA SA",
+            "shares": 42,
+            "weight": 0.0299
+        },
+        {
+            "asset_type": "stock",
+            "code": "GET FP",
+            "name": "GETLINK SE",
+            "shares": 293,
+            "weight": 0.0287
+        },
+        {
+            "asset_type": "stock",
+            "code": "KGX GY",
+            "name": "Kion Group GmbH",
+            "shares": 81,
+            "weight": 0.0284
+        },
+        {
+            "asset_type": "stock",
+            "code": "TIT IM",
+            "name": "Telecom Italia SpA/Milano",
+            "shares": 8544,
+            "weight": 0.0272
+        },
+        {
+            "asset_type": "stock",
+            "code": "IP IM",
+            "name": "INTERPUMP GROUP SPA",
+            "shares": 104,
+            "weight": 0.0271
+        },
+        {
+            "asset_type": "stock",
+            "code": "MAP SQ",
+            "name": "Mapfre S.A.",
+            "shares": 1073,
+            "weight": 0.027
+        },
+        {
+            "asset_type": "stock",
+            "code": "KGH PW",
+            "name": "KGHM POLSKA MIEDZ SA",
+            "shares": 95,
+            "weight": 0.0269
+        },
+        {
+            "asset_type": "stock",
+            "code": "FRA GY",
+            "name": "FRAPORT AG",
+            "shares": 54,
+            "weight": 0.0265
+        },
+        {
+            "asset_type": "stock",
+            "code": "MBK PW",
+            "name": "MBANK SA",
+            "shares": 19,
+            "weight": 0.0261
+        },
+        {
+            "asset_type": "stock",
+            "code": "RBI AV",
+            "name": "RAIFFEISEN BANK INTERNATIONA",
+            "shares": 140,
+            "weight": 0.0261
+        },
+        {
+            "asset_type": "stock",
+            "code": "SIGN SE",
+            "name": "SIG GROUP AG",
+            "shares": 454,
+            "weight": 0.026
+        },
+        {
+            "asset_type": "stock",
+            "code": "BMED IM",
+            "name": "Banca Mediolanum",
+            "shares": 243,
+            "weight": 0.0258
+        },
+        {
+            "asset_type": "stock",
+            "code": "INDUA SS",
+            "name": "INDUSTRIVARDEN AB-A SHS",
+            "shares": 113,
+            "weight": 0.025
+        },
+        {
+            "asset_type": "stock",
+            "code": "BARN SE",
+            "name": "BARRY CALLEBAUT AG-REG",
+            "shares": 3,
+            "weight": 0.0247
+        },
+        {
+            "asset_type": "stock",
+            "code": "AYV FP",
+            "name": "AYVENS SA",
+            "shares": 361,
+            "weight": 0.0245
+        },
+        {
+            "asset_type": "stock",
+            "code": "AXFO SS",
+            "name": "AXFOOD AB",
+            "shares": 147,
+            "weight": 0.024
+        },
+        {
+            "asset_type": "stock",
+            "code": "COV FP",
+            "name": "COVIVIO",
+            "shares": 65,
+            "weight": 0.0238
+        },
+        {
+            "asset_type": "stock",
+            "code": "BKG LN",
+            "name": "BERKELEY GROUP HOLDINGS PLC",
+            "shares": 81,
+            "weight": 0.0237
+        },
+        {
+            "asset_type": "stock",
+            "code": "ADEN SE",
+            "name": "Adecco Group AG",
+            "shares": 145,
+            "weight": 0.0236
+        },
+        {
+            "asset_type": "stock",
+            "code": "VENDB NO",
+            "name": "VEND MARKETPLACES ASA",
+            "shares": 125,
+            "weight": 0.0223
+        },
+        {
+            "asset_type": "stock",
+            "code": "TW/ LN",
+            "name": "TAYLOR WIMPEY PLC",
+            "shares": 2839,
+            "weight": 0.0218
+        },
+        {
+            "asset_type": "stock",
+            "code": "IPN FP",
+            "name": "IPSEN",
+            "shares": 30,
+            "weight": 0.0216
+        },
+        {
+            "asset_type": "stock",
+            "code": "MAERSKA DC",
+            "name": "A P Moller - Maersk A",
+            "shares": 2,
+            "weight": 0.0215
+        },
+        {
+            "asset_type": "stock",
+            "code": "JD/ LN",
+            "name": "JD SPORTS FASHION PLC",
+            "shares": 3025,
+            "weight": 0.0211
+        },
+        {
+            "asset_type": "stock",
+            "code": "BALDB SS",
+            "name": "FASTIGHETS AB BALDER-B SHRS",
+            "shares": 501,
+            "weight": 0.0209
+        },
+        {
+            "asset_type": "stock",
+            "code": "EDPR PL",
+            "name": "EDP RENOVAVEIS SA",
+            "shares": 239,
+            "weight": 0.0208
+        },
+        {
+            "asset_type": "stock",
+            "code": "GRF SQ",
+            "name": "Grifols SA",
+            "shares": 263,
+            "weight": 0.02
+        },
+        {
+            "asset_type": "stock",
+            "code": "RF FP",
+            "name": "EURAZEO",
+            "shares": 52,
+            "weight": 0.0198
+        },
+        {
+            "asset_type": "stock",
+            "code": "BC8 GY",
+            "name": "BECHTLE AG",
+            "shares": 89,
+            "weight": 0.0197
+        },
+        {
+            "asset_type": "stock",
+            "code": "EMSN SE",
+            "name": "Ems Chemie I",
+            "shares": 5,
+            "weight": 0.0192
+        },
+        {
+            "asset_type": "stock",
+            "code": "CAST SS",
+            "name": "CASTELLUM AB",
+            "shares": 298,
+            "weight": 0.0191
+        },
+        {
+            "asset_type": "stock",
+            "code": "HOLMB SS",
+            "name": "HOLMEN AB-B SHARES",
+            "shares": 97,
+            "weight": 0.0191
+        },
+        {
+            "asset_type": "stock",
+            "code": "GETIB SS",
+            "name": "GETINGE AB",
+            "shares": 156,
+            "weight": 0.019
+        },
+        {
+            "asset_type": "stock",
+            "code": "BLND LN",
+            "name": "BRITISH LAND CO PLC",
+            "shares": 698,
+            "weight": 0.0189
+        },
+        {
+            "asset_type": "stock",
+            "code": "DEMANT DC",
+            "name": "DEMANT A/S",
+            "shares": 96,
+            "weight": 0.0189
+        },
+        {
+            "asset_type": "stock",
+            "code": "ANDR AV",
+            "name": "ANDRITZ AG",
+            "shares": 48,
+            "weight": 0.0186
+        },
+        {
+            "asset_type": "stock",
+            "code": "SAGAB SS",
+            "name": "SAGAX AB-B",
+            "shares": 150,
+            "weight": 0.0186
+        },
+        {
+            "asset_type": "stock",
+            "code": "AVOL SE",
+            "name": "AVOLTA AG",
+            "shares": 65,
+            "weight": 0.0185
+        },
+        {
+            "asset_type": "stock",
+            "code": "BKW SE",
+            "name": "BKW AG",
+            "shares": 15,
+            "weight": 0.0185
+        },
+        {
+            "asset_type": "stock",
+            "code": "VALMT FH",
+            "name": "VALMET OYJ",
+            "shares": 107,
+            "weight": 0.0184
+        },
+        {
+            "asset_type": "stock",
+            "code": "BZU IM",
+            "name": "BUZZI UNICEM SPA",
+            "shares": 59,
+            "weight": 0.018
+        },
+        {
+            "asset_type": "stock",
+            "code": "SDR LN",
+            "name": "SCHRODERS PLC",
+            "shares": 627,
+            "weight": 0.0177
+        },
+        {
+            "asset_type": "stock",
+            "code": "PSN LN",
+            "name": "Persimmon PLC",
+            "shares": 203,
+            "weight": 0.0175
+        },
+        {
+            "asset_type": "stock",
+            "code": "CPR IM",
+            "name": "DAVIDE CAMPARI-MILANO SPA",
+            "shares": 482,
+            "weight": 0.0174
+        },
+        {
+            "asset_type": "stock",
+            "code": "VER AV",
+            "name": "VERBUND AG",
+            "shares": 43,
+            "weight": 0.0174
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMUN FP",
+            "name": "Amundi",
+            "shares": 40,
+            "weight": 0.0169
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEMN SE",
+            "name": "TEMENOS AG - REG",
+            "shares": 39,
+            "weight": 0.0169
+        },
+        {
+            "asset_type": "stock",
+            "code": "SOF BB",
+            "name": "Sofina",
+            "shares": 11,
+            "weight": 0.0167
+        },
+        {
+            "asset_type": "stock",
+            "code": "RAA GY",
+            "name": "RATIONAL AG",
+            "shares": 4,
+            "weight": 0.0166
+        },
+        {
+            "asset_type": "stock",
+            "code": "WDP BB",
+            "name": "WAREHOUSES DE PAUW CVA",
+            "shares": 119,
+            "weight": 0.0165
+        },
+        {
+            "asset_type": "stock",
+            "code": "EVK GY",
+            "name": "Evonik Industries AG",
+            "shares": 176,
+            "weight": 0.0163
+        },
+        {
+            "asset_type": "stock",
+            "code": "TEP FP",
+            "name": "TELEPERFORMANCE",
+            "shares": 40,
+            "weight": 0.0161
+        },
+        {
+            "asset_type": "stock",
+            "code": "MB IM",
+            "name": "MEDIOBANCA SPA",
+            "shares": 157,
+            "weight": 0.016
+        },
+        {
+            "asset_type": "stock",
+            "code": "HER IM",
+            "name": "HERA SPA",
+            "shares": 639,
+            "weight": 0.0157
+        },
+        {
+            "asset_type": "stock",
+            "code": "LUNDB SS",
+            "name": "LUNDBERGS AB-B SHS",
+            "shares": 55,
+            "weight": 0.0157
+        },
+        {
+            "asset_type": "stock",
+            "code": "NTGY SQ",
+            "name": "NATURGY ENERGY GROUP SA",
+            "shares": 94,
+            "weight": 0.0156
+        },
+        {
+            "asset_type": "stock",
+            "code": "INW IM",
+            "name": "INFRASTRUTTURE WIRELESS ITAL",
+            "shares": 255,
+            "weight": 0.0155
+        },
+        {
+            "asset_type": "stock",
+            "code": "AMV0 GY",
+            "name": "AUMOVIO SE",
+            "shares": 70,
+            "weight": 0.0154
+        },
+        {
+            "asset_type": "stock",
+            "code": "CVC NA",
+            "name": "CVC CAPITAL PARTNERS PLC",
+            "shares": 157,
+            "weight": 0.0149
+        },
+        {
+            "asset_type": "stock",
+            "code": "DIE BB",
+            "name": "D'IETEREN GROUP",
+            "shares": 15,
+            "weight": 0.0147
+        },
+        {
+            "asset_type": "stock",
+            "code": "A2A IM",
+            "name": "A2A SPA",
+            "shares": 995,
+            "weight": 0.0146
+        },
+        {
+            "asset_type": "stock",
+            "code": "BCVN SE",
+            "name": "Banque Cantonale Vaudoise",
+            "shares": 23,
+            "weight": 0.0144
+        },
+        {
+            "asset_type": "stock",
+            "code": "BC IM",
+            "name": "BRUNELLO CUCINELLI SPA",
+            "shares": 25,
+            "weight": 0.0141
+        },
+        {
+            "asset_type": "stock",
+            "code": "HIK LN",
+            "name": "HIKMA PHARMACEUTICALS PLC",
+            "shares": 110,
+            "weight": 0.0141
+        },
+        {
+            "asset_type": "stock",
+            "code": "SALM NO",
+            "name": "SALMAR ASA",
+            "shares": 43,
+            "weight": 0.014
+        },
+        {
+            "asset_type": "stock",
+            "code": "LATOB SS",
+            "name": "Latour Investment B",
+            "shares": 105,
+            "weight": 0.0139
+        },
+        {
+            "asset_type": "stock",
+            "code": "BOL FP",
+            "name": "BOLLORE",
+            "shares": 454,
+            "weight": 0.0135
+        },
+        {
+            "asset_type": "stock",
+            "code": "SSABB SS",
+            "name": "SSAB AB(SSABB)",
+            "shares": 395,
+            "weight": 0.0131
+        },
+        {
+            "asset_type": "stock",
+            "code": "AKE FP",
+            "name": "ARKEMA",
+            "shares": 40,
+            "weight": 0.0129
+        },
+        {
+            "asset_type": "stock",
+            "code": "FDJU FP",
+            "name": "FDJ UNITED",
+            "shares": 77,
+            "weight": 0.0129
+        },
+        {
+            "asset_type": "stock",
+            "code": "ROCKB DC",
+            "name": "ROCKWOOL A/S",
+            "shares": 66,
+            "weight": 0.0129
+        },
+        {
+            "asset_type": "stock",
+            "code": "SWECB SS",
+            "name": "SWECO AB-B SHS",
+            "shares": 149,
+            "weight": 0.0129
+        },
+        {
+            "asset_type": "stock",
+            "code": "REY IM",
+            "name": "REPLY SPA",
+            "shares": 17,
+            "weight": 0.0126
+        },
+        {
+            "asset_type": "stock",
+            "code": "GRF/P SQ",
+            "name": "GRIFOLS SA",
+            "shares": 232,
+            "weight": 0.0123
+        },
+        {
+            "asset_type": "stock",
+            "code": "UTG LN",
+            "name": "UNITE GROUP PLC/THE",
+            "shares": 283,
+            "weight": 0.0119
+        },
+        {
+            "asset_type": "stock",
+            "code": "INPST NA",
+            "name": "INPOST SA",
+            "shares": 177,
+            "weight": 0.0115
+        },
+        {
+            "asset_type": "stock",
+            "code": "VOW GY",
+            "name": "VOLKSWAGEN AG",
+            "shares": 20,
+            "weight": 0.0114
+        },
+        {
+            "asset_type": "stock",
+            "code": "FPE3 GY",
+            "name": "FUCHS SE",
+            "shares": 40,
+            "weight": 0.01
+        },
+        {
+            "asset_type": "stock",
+            "code": "NEXI IM",
+            "name": "NEXI SPA",
+            "shares": 318,
+            "weight": 0.0091
+        },
+        {
+            "asset_type": "stock",
+            "code": "SK FP",
+            "name": "SEB SA",
+            "shares": 18,
+            "weight": 0.0054
+        },
+        {
+            "asset_type": "future",
+            "code": "FXXPZ5F",
+            "name": "2025/12Stoxx歐洲600指數",
+            "shares": 14,
+            "weight": 2.5248
+        }
+    ]
+}
