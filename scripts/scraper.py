@@ -53,6 +53,19 @@ class YuantaScraper(BaseScraper):
         
         driver.get(etf_url)
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "mainBox")))
+
+        try:
+            popup = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'outsidePop')))
+            driver.execute_script("arguments[0].style.display='none';", popup)
+        except Exception:
+            pass
+
+        try:
+            more_button = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.CLASS_NAME, 'moreBtn')))
+            driver.execute_script("arguments[0].click();", more_button)
+            time.sleep(2)
+        except Exception:
+            pass
         soup = BeautifulSoup(driver.page_source, 'lxml')
         etf_name = soup.title.string.split("-")[0].strip()
 
