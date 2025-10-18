@@ -5,6 +5,7 @@ import requests
 import logging
 from typing import List, Dict, Any, Optional
 from flask import Flask, redirect
+from flask_cors import CORS
 from flask_restx import Api, Resource, fields
 
 # --- Logging Configuration ---
@@ -12,6 +13,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - [%(levelname)s] - 
 
 # --- App and API Initialization ---
 app = Flask(__name__)
+CORS(app) # Enable CORS for all routes
 api = Api(app, version='6.0', title='台股 ETF 資訊 API (本地測試)',
           description='一個整合了「即時查詢」與「本地快取讀取」的複合式 API',
           doc='/apidocs/'
@@ -119,6 +121,21 @@ holding_file_model = api.model('HoldingFile', {
     'holdings': fields.List(fields.Nested(holding_model))
 })
 
+fund_info_model = api.model('FundInfo', {
+    '基金代號': fields.String,
+    '基金簡稱': fields.String,
+    '基金中文名稱': fields.String,
+    '基金英文名稱': fields.String,
+    '基金類型': fields.String,
+    '標的指數/追蹤指數名稱': fields.String,
+    '成立日期': fields.String,
+    '上市日期': fields.String,
+    '基金經理人': fields.String,
+    '發行單位數/轉換數': fields.String,
+    '計價幣別': fields.String,
+    # Add other fields from the CSV as needed
+})
+
 # --- API Routes ---
 @app.route('/')
 def index() -> Any:
@@ -199,6 +216,29 @@ class CachedHoldingResource(Resource):
         except Exception as e:
             logging.error(f"Failed to read or parse holding file {file_path}: {e}")
             api.abort(500, f"Could not process holding file for ETF {etf_code}.")
+
+@cached_ns.route('/fund_info/<string:etf_code>')
+@cached_ns.param('etf_code', '要查詢的 ETF 代碼 (例如: 0050)')
+class FundInfoResource(Resource):
+    """Retrieves basic information for a specific fund from the cached open data."""
+    @cached_ns.doc('get_fund_info')
+    @cached_ns.marshal_with(fund_info_model)
+    @api.response(404, '找不到指定的基金基本資料')
+    def get(self, etf_code: str) -> Dict[str, Any]:
+        """(讀取快取) 查詢指定基金的基本資料"""
+        file_path = os.path.join(DATA_DIR, "fund_basic_info.json")
+        if not os.path.exists(file_path):
+            api.abort(404, "fund_basic_info.json not found. Please run the scraper script first.")
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                all_info = json.load(f)
+                fund_info = all_info.get(etf_code)
+                if not fund_info:
+                    api.abort(404, f"Info for fund {etf_code} not found in the open data file.")
+                return fund_info
+        except Exception as e:
+            logging.error(f"Failed to read or parse fund info file {file_path}: {e}")
+            api.abort(500, f"Could not process fund info file.")
 
 if __name__ == '__main__':
     app.run(debug=True)

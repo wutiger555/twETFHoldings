@@ -3,6 +3,7 @@ import os
 import json
 import re
 import sys
+import csv
 import requests
 import urllib3
 import logging
@@ -369,6 +370,38 @@ def generate_summary_report(
     report_lines.append("\n" + "="*70)
     return "\n".join(report_lines)
 
+import io
+
+def update_fund_basic_info() -> bool:
+    """Downloads the latest fund basic information CSV and saves it as a JSON file."""
+    url = "https://mopsfin.twse.com.tw/opendata/t187ap47_L.csv"
+    logging.info(f"Downloading latest fund basic info from {url}...")
+    try:
+        response = requests.get(url, timeout=30, verify=False)
+        response.raise_for_status()
+        
+        # Decode with utf-8-sig to handle BOM and use StringIO to treat string as a file
+        csv_content = response.content.decode('utf-8-sig')
+        csv_file = io.StringIO(csv_content)
+        
+        reader = csv.DictReader(csv_file)
+        
+        fund_info = {}
+        for row in reader:
+            fund_code = row.get('基金代號')
+            if fund_code:
+                fund_info[fund_code.strip()] = row
+        
+        output_path = os.path.join(OUTPUT_DIR, "fund_basic_info.json")
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(fund_info, f, ensure_ascii=False, indent=4)
+        
+        logging.info(f"Successfully updated and saved fund_basic_info.json with {len(fund_info)} records.")
+        return True
+    except Exception as e:
+        logging.error(f"Failed to update fund basic info: {e}", exc_info=True)
+        return False
+
 # --- Main Execution ---
 def main() -> None:
     """Main function to read config, run scrapers, and generate a summary report."""
@@ -391,6 +424,8 @@ def main() -> None:
     else:
         targets_to_scrape = all_targets
         logging.info(f"Starting full scrape for {len(targets_to_scrape)} enabled ETFs...")
+        # Update basic info only on a full run
+        update_fund_basic_info()
 
     if not targets_to_scrape:
         logging.info("No ETFs enabled or specified for scraping.")

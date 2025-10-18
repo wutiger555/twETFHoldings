@@ -1,0 +1,102 @@
+/* Global App Styles */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 280px; /* Slightly wider for icons */
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  color: #2D3748;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-header {
+  font-size: 1.4rem; /* Slightly reduce font size to prevent wrapping */
+  font-weight: bold;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #E2E8F0;
+  margin-bottom: 1rem;
+}
+
+.sidebar-nav .nav-link {
+  color: #A0AEC0; /* Grey text for links */
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  margin: 0.25rem 0;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center; /* Align icon and text */
+}
+
+.sidebar-nav .nav-link .sidebar-icon {
+  margin-right: 1rem; /* Space between icon and text */
+  font-size: 1.2rem;
+}
+
+.sidebar-nav .nav-link:hover {
+  background-color: #F4F7FE;
+  color: #2D3748;
+}
+
+/* Style for the active NavLink */
+.sidebar-nav .nav-link.active {
+  background: linear-gradient(90deg, #422AFB, #7551FF);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 10px 20px -5px rgba(66, 42, 251, 0.3);
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #F4F7FE;
+  overflow-y: auto;
+}
+
+/* Card Styles */
+.card-link {
+  text-decoration: none;
+}
+
+.etf-card {
+  border: 1px solid #E9EDF7;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 12px 26px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-in-out;
+}
+
+.etf-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 20px 27px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.table thead th {
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.table tbody tr {
+  background-color: #ffffff;
+}
+
+.table tbody td {
+  border: none;
+  padding: 1rem 1.5rem;
+  vertical-align: middle;
+}

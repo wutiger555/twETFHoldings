@@ -7,6 +7,7 @@
 ## 1. 元大投信 (Yuanta)
 
 - **`firm` ID**: `yuanta`
+- **資料來源**: `https://www.yuantaetfs.com/product/detail/{etf_code}/ratio`
 - **核心方法**: Selenium WebDriver (動態渲染)
 - **`needs_browser`**: `True`
 
@@ -16,7 +17,7 @@
 
 ### 抓取步驟詳解
 
-1.  **載入頁面**: 使用 Selenium `driver.get()` 方法訪問目標 URL (`https://www.yuantaetfs.com/product/detail/{etf_code}/ratio`)。
+1.  **載入頁面**: 使用 Selenium `driver.get()` 方法訪問目標 URL。
 2.  **等待主要內容**: 使用 `WebDriverWait` 等待頁面最外層的容器 (`.mainBox`) 出現，確保頁面主體已載入。
 3.  **處理彈出視窗**: 嘗試尋找一個 ID 為 `outsidePop` 的彈出視窗。如果存在，則執行 JavaScript (`arguments[0].style.display='none';`) 將其隱藏，以防干擾後續操作。
 4.  **點擊「顯示更多」**: 這是最關鍵的一步。腳本會尋找並點擊 class 為 `.moreBtn` 的按鈕，以展開完整的持股列表。點擊後會等待 2 秒，確保資料有足夠時間載入。
@@ -30,6 +31,7 @@
 ## 2. 富邦投信 (Fubon)
 
 - **`firm` ID**: `fubon`
+- **資料來源**: `https://websys.fsit.com.tw/FubonETF/Fund/Assets.aspx?stkId={etf_code}`
 - **核心方法**: `requests` (直接 HTTP 請求)
 - **`needs_browser`**: `False`
 
