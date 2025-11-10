@@ -1,0 +1,35 @@
+# Render.com 部署配置
+# https://render.com/
+
+services:
+  # Flask 後端
+  - type: web
+    name: etf-api
+    env: python
+    region: singapore  # 或 oregon (美國)
+    plan: free
+    buildCommand: "pip install -r requirements.txt && pip install -r requirements_new.txt && pip install gunicorn"
+    startCommand: "gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 app.main_new:app"
+    healthCheckPath: /health
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: FINMIND_TOKEN
+        sync: false  # 需要手動在 Render 後台設定
+      - key: SECRET_KEY
+        generateValue: true
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: etf-redis
+          property: connectionString
+    autoDeploy: true
+
+  # Redis 快取
+  - type: redis
+    name: etf-redis
+    plan: free  # 免費 25MB
+    maxmemoryPolicy: allkeys-lru
+    ipAllowList: []  # 允許所有 IP
