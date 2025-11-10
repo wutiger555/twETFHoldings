@@ -8,8 +8,8 @@ services:
     env: python
     region: singapore  # 或 oregon (美國)
     plan: free
-    buildCommand: "pip install -r requirements.txt && pip install -r requirements_new.txt && pip install gunicorn"
-    startCommand: "gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 app.main_new:app"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 backend.main:app"
     healthCheckPath: /health
     envVars:
       - key: FLASK_ENV
