@@ -36,41 +36,55 @@
 
 ## 🚀 5 分鐘快速開始
 
-### 1. 測試 FinMind API（2 分鐘）
+### 選項 1: 使用 Docker (推薦)
 
 ```bash
-# 1. 註冊 FinMind 帳號並取得 Token
-open https://finmindtrade.com/
+# 1. Clone 專案
+git clone https://github.com/your-username/twETFHoldings.git
+cd twETFHoldings
 
 # 2. 設定環境變數
-export FINMIND_TOKEN="your_token_here"
+cp .env.example .env
+# 編輯 .env，填入 FINMIND_TOKEN (選填，免費使用也可以)
 
-# 3. 執行範例程式
+# 3. 啟動所有服務
+docker-compose up -d
+
+# 4. 測試 API
+curl http://localhost:5000/health | jq
+
+# 完成！🎉 後端已在 http://localhost:5000 運行
+```
+
+### 選項 2: 本地開發
+
+```bash
+# 1. 安裝 Python 依賴
+pip install -r requirements.txt
+
+# 2. 啟動 Redis
+docker run -d -p 6379:6379 redis:7-alpine
+
+# 3. 設定環境變數
+cp .env.example .env
+
+# 4. 啟動後端
+python -m flask --app backend.main run
+
+# 5. 測試
+curl http://localhost:5000/health
+```
+
+### 選項 3: 測試 FinMind API
+
+```bash
+# 不需要啟動任何服務，直接測試 API 連接
 python examples/finmind_example.py
 
 # 預期輸出：
 # ✅ 找到 300+ 個 ETF
 # ✅ 取得 0050 持股明細
-```
-
-### 2. 啟動本地後端（3 分鐘）
-
-```bash
-# 1. 安裝依賴
-pip install -r requirements.txt
-
-# 2. 設定環境變數
-cp .env.example .env
-# 編輯 .env，填入 FINMIND_TOKEN
-
-# 3. 啟動 Redis (使用 Docker)
-docker run -d -p 6379:6379 redis:7-alpine
-
-# 4. 啟動 Flask 後端
-python -m flask --app backend.main run
-
-# 5. 測試 API
-curl http://localhost:5000/health | jq
+# ✅ 取得 2330 股價
 ```
 
 ---
@@ -136,44 +150,59 @@ twETFHoldings/
 
 ### 🎯 新手必讀（按順序閱讀）
 
-1. **[📖 GET_STARTED.md](./docs/GET_STARTED.md)** ⭐ 最先看
-   - 完整專案概覽
-   - 學習路徑
-   - 常見問題
+1. **[🚀 COMPLETE_SETUP_GUIDE.md](./docs/COMPLETE_SETUP_GUIDE.md)** ⭐⭐⭐ 必讀
+   - **從零到部署的完整指南**
+   - 環境準備 (Python, Node.js, Redis)
+   - Docker 容器化設定
+   - 本地測試完整流程
+   - **部署方案完整比較** (Railway, Render, Fly.io, Google Cloud Run)
+   - 多 APP 共用分析
+   - 常見問題解決
 
-2. **[🚀 QUICK_START.md](./docs/QUICK_START.md)**
-   - 5 分鐘快速測試
-   - 專案概覽
-   - 決策點
+2. **[📊 FINMIND_QUOTA_ANALYSIS.md](./docs/FINMIND_QUOTA_ANALYSIS.md)** ⭐⭐ 重要
+   - **FinMind 免費額度分析**
+   - 實際使用量估算
+   - 優化策略 (500人以下完全夠用)
+   - 快取策略建議
+   - 付費方案對比
 
-3. **[🧪 TESTING_GUIDE.md](./docs/TESTING_GUIDE.md)**
-   - 完整測試教學（從零開始）
-   - 環境準備
-   - API 測試
+3. **[📱 MOBILE_APP_GUIDE.md](./docs/MOBILE_APP_GUIDE.md)** ⭐⭐⭐ App 開發必讀
+   - React Native + Expo 完整架構
+   - 極簡現代風格設計
+   - **wagmi-charts 股價圖表**
+   - 圓餅圖持股分析
+   - 個股影響力計算
+   - 完整程式碼範例 (10,000+ 字)
+
+4. **[🧪 TESTING_GUIDE.md](./docs/TESTING_GUIDE.md)**
+   - API 測試教學
+   - curl / Postman / Python 測試
    - 疑難排解
 
-4. **[☁️ DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)**
-   - Railway 部署（推薦）
-   - Render 免費部署
+5. **[☁️ DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)**
+   - Railway 一鍵部署
+   - Render 免費方案
    - 成本對比
-
-5. **[📱 EXPO_INTEGRATION.md](./docs/EXPO_INTEGRATION.md)**
-   - React Native Expo 整合
-   - App 開發完整流程
-   - 打包發布
 
 ### 📚 進階文件
 
 - **[🏗️ ARCHITECTURE_DESIGN.md](./docs/ARCHITECTURE_DESIGN.md)**
   - 完整架構設計
   - 三層架構圖
-  - 快取策略
   - API 規範
+
+- **[📖 GET_STARTED.md](./docs/GET_STARTED.md)**
+  - 專案概覽
+  - 學習路徑
+
+- **[🚀 QUICK_START.md](./docs/QUICK_START.md)**
+  - 快速開始指南
 
 - **[🗺️ REFACTOR_ROADMAP.md](./docs/REFACTOR_ROADMAP.md)**
   - 重構路線圖
-  - 新舊對比
-  - 遷移計劃
+
+- **[📱 EXPO_INTEGRATION.md](./docs/EXPO_INTEGRATION.md)**
+  - Expo 整合詳細說明
 
 ---
 
@@ -264,15 +293,51 @@ npx create-expo-app@latest tw-etf-app
 
 ---
 
-## 💰 成本估算
+## 💰 成本估算與 FinMind 免費額度分析
+
+### FinMind API 免費額度 ✅ 完全夠用
+
+| 使用情境 | 每日 API 請求數 | 是否安全 |
+|---------|----------------|---------|
+| **優化後 (定時任務)** | ~450 次 | ✅ 極度安全 |
+| **10 個活躍用戶** | ~211 次 | ✅ 極度安全 |
+| **100 個活躍用戶** | ~751 次 | ✅ 安全 |
+| **500 個活躍用戶** | ~3,151 次 | ✅ 安全 |
+| **1,000 個活躍用戶** | ~6,151 次 | ⚠️ 接近上限 |
+
+**關鍵策略**：
+- ✅ 使用定時任務預先載入資料 (每日 ~150 次請求)
+- ✅ 長時間快取 (ETF 資料 24hr, 股價 15min)
+- ✅ 快取命中率 > 80%
+
+**結論**: 在 **500 個活躍用戶**以下，免費額度綽綽有餘！
+
+詳細分析請參考：[📊 FinMind 免費額度完整分析](./docs/FINMIND_QUOTA_ANALYSIS.md)
+
+### 部署成本
+
+| 平台 | 免費方案 | 付費方案 | 適合場景 | 多APP共用 |
+|------|----------|----------|---------|----------|
+| **Railway** | $5/月 | $20+/月 | 個人專案 | ✅ 優秀 |
+| **Render** | 完全免費 | $7+/月 | 測試/學習 | ⚠️ 有限 |
+| **Fly.io** | $0 | $10+/月 | 高效能 | ✅ 優秀 |
+| **Google Cloud Run** | $0 | 按量計費 | 彈性擴展 | ✅ 最佳 |
+
+**推薦方案**:
+- 個人使用: Railway ($0-5/月)
+- 測試環境: Render (完全免費)
+- 多個 APP: Google Cloud Run ($0-30/月)
+
+詳細比較請參考：[🚀 部署方案完整比較](./docs/COMPLETE_SETUP_GUIDE.md#部署方案完整比較)
+
+### 總成本
 
 | 項目 | 免費方案 | 付費方案 | 備註 |
 |------|----------|----------|------|
-| FinMind API | 600 req/hr | 無限制 | 免費足夠使用 |
-| Railway | $5/月 | $20+/月 | 免費額度通常用不完 |
-| Render | 完全免費 | $7+/月 | 會休眠但可接受 |
-| Redis | 免費 25MB | - | Railway/Render 提供 |
-| **總計** | **$0-5/月** | - | 幾乎免費！ |
+| FinMind API | 600 req/hr | $99/月起 | **免費完全夠用** (< 500 用戶) |
+| 雲端部署 | $0-5/月 | $20+/月 | Railway 或 Render |
+| Redis | 免費 25MB | - | 平台提供 |
+| **總計** | **$0-5/月** | - | **幾乎免費！** |
 
 ---
 
@@ -325,15 +390,43 @@ MIT License - 詳見 [LICENSE](LICENSE) 檔案
 
 ## 🎉 開始使用
 
-**推薦學習路徑**：
+### 推薦學習路徑
 
-1. 📖 閱讀 [GET_STARTED.md](./docs/GET_STARTED.md) 了解專案全貌
-2. 🚀 跟著 [QUICK_START.md](./docs/QUICK_START.md) 快速測試
-3. 🧪 使用 [TESTING_GUIDE.md](./docs/TESTING_GUIDE.md) 完整測試
-4. ☁️ 參考 [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md) 部署到雲端
-5. 📱 查看 [EXPO_INTEGRATION.md](./docs/EXPO_INTEGRATION.md) 開發 App
+#### 🎯 新手路徑 (從零開始)
+
+1. **[🚀 COMPLETE_SETUP_GUIDE.md](./docs/COMPLETE_SETUP_GUIDE.md)** - 開始這裡！
+   - 環境準備 (Python, Node.js, Docker)
+   - 本地開發設定
+   - Docker 容器化
+   - 完整測試流程
+   - 部署方案比較
+
+2. **[📊 FINMIND_QUOTA_ANALYSIS.md](./docs/FINMIND_QUOTA_ANALYSIS.md)** - 了解限制
+   - 免費額度夠不夠用？
+   - 優化策略
+   - 成本估算
+
+3. **[☁️ DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)** - 部署到雲端
+   - Railway 一鍵部署
+   - 或 Render 免費方案
+
+4. **[📱 MOBILE_APP_GUIDE.md](./docs/MOBILE_APP_GUIDE.md)** - 開發 App
+   - React Native 架構
+   - wagmi-charts 圖表
+   - 完整實作指南
+
+#### 🚀 快速路徑 (有經驗)
+
+1. **Docker 啟動**: `docker-compose up -d`
+2. **測試 API**: `curl http://localhost:5000/health`
+3. **部署**: 參考 [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)
+4. **開發 App**: 參考 [MOBILE_APP_GUIDE.md](./docs/MOBILE_APP_GUIDE.md)
+
+---
 
 **祝您使用愉快！** 🚀
+
+有問題請參考 [常見問題](./docs/COMPLETE_SETUP_GUIDE.md#常見問題)
 
 ---
 

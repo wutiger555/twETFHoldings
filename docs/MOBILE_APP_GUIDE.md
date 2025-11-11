@@ -921,3 +921,266 @@ eas build --platform android
 - [後端 API 文件](./TESTING_GUIDE.md)
 - [Expo 整合指南](./EXPO_INTEGRATION.md)
 - [架構設計文件](./ARCHITECTURE_DESIGN.md)
+
+---
+
+## 📊 使用 wagmi-charts 顯示股價圖表
+
+### 為什麼選擇 wagmi-charts?
+
+**react-native-wagmi-charts** 是一個專為金融 APP 設計的專業圖表庫：
+
+- ✅ **專業級K線圖** - 完整的 OHLC 支援
+- ✅ **流暢動畫** - 60 FPS 流暢滾動
+- ✅ **觸控互動** - 捏合縮放、十字準星
+- ✅ **效能優異** - React Native Reanimated
+- ✅ **易於使用** - 簡潔的 API
+
+### 安裝
+
+```bash
+npm install react-native-wagmi-charts react-native-haptic-feedback
+```
+
+### 基本使用
+
+#### 1. 折線圖 (Line Chart)
+
+```tsx
+import { LineChart } from 'react-native-wagmi-charts';
+
+const data = [
+  { timestamp: 1234567890, value: 100 },
+  { timestamp: 1234567900, value: 105 },
+  { timestamp: 1234567910, value: 103 },
+];
+
+function PriceLineChart() {
+  return (
+    <LineChart.Provider data={data}>
+      <LineChart height={200}>
+        <LineChart.Path color="#00D4FF" width={2}>
+          <LineChart.Gradient />
+        </LineChart.Path>
+        <LineChart.CursorCrosshair>
+          <LineChart.Tooltip />
+        </LineChart.CursorCrosshair>
+      </LineChart>
+    </LineChart.Provider>
+  );
+}
+```
+
+#### 2. K線圖 (Candlestick Chart)
+
+```tsx
+import { CandlestickChart } from 'react-native-wagmi-charts';
+
+const data = [
+  {
+    timestamp: 1234567890,
+    open: 100,
+    high: 105,
+    low: 98,
+    close: 103,
+  },
+  // ...
+];
+
+function PriceCandleChart() {
+  return (
+    <CandlestickChart.Provider data={data}>
+      <CandlestickChart height={200}>
+        <CandlestickChart.Candles
+          positiveColor="#00D46A"  // 漲 - 綠色
+          negativeColor="#FF3B69"  // 跌 - 紅色
+        />
+        <CandlestickChart.Crosshair>
+          <CandlestickChart.Tooltip />
+        </CandlestickChart.Crosshair>
+      </CandlestickChart>
+    </CandlestickChart.Provider>
+  );
+}
+```
+
+### 完整範例組件
+
+專案已包含一個完整的股價圖表組件：
+
+**檔案**: `components/StockPriceChart.tsx`
+
+**功能**：
+- ✅ 折線圖 / K線圖 切換
+- ✅ 時間範圍選擇 (1D, 5D, 1M, 3M, 6M, 1Y)
+- ✅ 互動式十字準星
+- ✅ 價格和日期 Tooltip
+- ✅ 統計資訊 (最高、最低、振幅)
+- ✅ 觸覺回饋 (Haptic Feedback)
+
+**使用方式**：
+
+```tsx
+import { StockPriceChart } from '@/components/StockPriceChart';
+
+function StockDetailScreen({ stockCode }) {
+  const [history, setHistory] = useState([]);
+
+  useEffect(() => {
+    // 載入股價歷史資料
+    api.getStockHistory(stockCode, '30d').then(setHistory);
+  }, [stockCode]);
+
+  return (
+    <StockPriceChart
+      data={history}
+      stockCode="2330"
+      stockName="台積電"
+      currentPrice={600}
+      changePercent={2.5}
+    />
+  );
+}
+```
+
+### 進階功能
+
+#### 1. 自訂顏色
+
+```tsx
+<LineChart.Path
+  color="#00D4FF"
+  width={2}
+  animateOnMount="foreground"
+>
+  <LineChart.Gradient color="#00D4FF" />
+</LineChart.Path>
+```
+
+#### 2. 縮放和平移
+
+```tsx
+<LineChart.Provider data={data}>
+  <LineChart height={200}>
+    {/* 啟用手勢操作 */}
+    <LineChart.PanGesture />
+    <LineChart.Path />
+  </LineChart>
+</LineChart.Provider>
+```
+
+#### 3. 自訂 Tooltip
+
+```tsx
+<LineChart.CursorCrosshair>
+  <LineChart.Tooltip
+    textStyle={{
+      fontSize: 12,
+      color: '#FFFFFF',
+    }}
+    style={{
+      backgroundColor: '#1A1A1A',
+      borderRadius: 8,
+      padding: 8,
+    }}
+  />
+</LineChart.CursorCrosshair>
+```
+
+#### 4. 多條線圖
+
+```tsx
+<LineChart.Provider data={data1}>
+  <LineChart height={200}>
+    <LineChart.Path color="#00D4FF" />
+  </LineChart>
+</LineChart.Provider>
+
+<LineChart.Provider data={data2}>
+  <LineChart height={200}>
+    <LineChart.Path color="#FF3B69" />
+  </LineChart>
+</LineChart.Provider>
+```
+
+### 效能優化
+
+#### 1. 資料點抽樣
+
+當資料點過多時（> 300 點），可以抽樣減少渲染負擔：
+
+```typescript
+function sampleData(data: StockHistory[], maxPoints: number = 300) {
+  if (data.length <= maxPoints) return data;
+
+  const step = Math.ceil(data.length / maxPoints);
+  return data.filter((_, index) => index % step === 0);
+}
+
+const sampledData = sampleData(historyData, 300);
+```
+
+#### 2. 使用 React.memo
+
+```tsx
+export const StockPriceChart = React.memo(StockPriceChartComponent);
+```
+
+#### 3. 延遲載入
+
+```tsx
+const [showChart, setShowChart] = useState(false);
+
+useEffect(() => {
+  // 延遲 100ms 載入圖表
+  setTimeout(() => setShowChart(true), 100);
+}, []);
+
+return showChart && <StockPriceChart ... />;
+```
+
+### 常見問題
+
+#### Q: 圖表不顯示？
+
+確認資料格式正確：
+
+```typescript
+// 正確格式
+const data = [
+  { timestamp: 1234567890000, value: 100 },  // timestamp 必須是毫秒
+  { timestamp: 1234567900000, value: 105 },
+];
+
+// 錯誤格式
+const data = [
+  { time: '2024-01-01', price: 100 },  // ❌ 欄位名稱錯誤
+];
+```
+
+#### Q: 圖表卡頓？
+
+1. 減少資料點 (使用抽樣)
+2. 使用 `React.memo`
+3. 檢查是否有不必要的重新渲染
+
+#### Q: 如何自訂樣式？
+
+所有組件都支援 `style` 屬性：
+
+```tsx
+<LineChart
+  style={{ marginHorizontal: 16 }}
+  height={200}
+/>
+```
+
+### 參考資源
+
+- [wagmi-charts 官方文件](https://github.com/coinjar/react-native-wagmi-charts)
+- [範例專案](https://github.com/coinjar/react-native-wagmi-charts/tree/main/example)
+- [API 文件](https://wagmi-charts.dev/)
+
+---
+
+**最後更新**: 2025-11-10
