@@ -21,9 +21,9 @@ import type {
 // API 配置
 const API_CONFIG = {
   // 開發環境
-  DEV_URL: 'http://localhost:5000/api/v1',
+  DEV_URL: 'http://localhost:5001/api/v1',
   // 生產環境 (請替換為您的 Railway/Render URL)
-  PROD_URL: process.env.EXPO_PUBLIC_API_URL || 'http://localhost:5000/api/v1',
+  PROD_URL: process.env.EXPO_PUBLIC_API_URL || 'http://localhost:5001/api/v1',
   TIMEOUT: 10000,
 };
 

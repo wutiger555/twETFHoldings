@@ -67,7 +67,8 @@ def create_app(config_name=None):
     # 應用啟動日誌
     app.logger.info(f"應用啟動 - 環境: {config_name}")
     app.logger.info(f"Debug 模式: {app.debug}")
-    app.logger.info(f"API 文件: http://localhost:5000/docs/")
+    port = int(os.getenv('PORT', 5001))
+    app.logger.info(f"Swagger API 文件: http://localhost:{port}/api/v1/")
 
     return app
 
@@ -183,10 +184,12 @@ def index():
     return jsonify({
         'message': '台股 ETF API',
         'version': '1.0',
-        'docs': '/docs/',
+        'docs': '/api/v1/',  # Swagger 文件路徑
         'endpoints': {
+            'health': '/health',
             'etfs': '/api/v1/etf/etfs',
             'etf_detail': '/api/v1/etf/etf/<code>',
+            'etf_holdings': '/api/v1/etf/etf/<code>/holdings',
             'stock_price': '/api/v1/stock/<code>',
             'search': '/api/v1/search?q=<keyword>'
         }
@@ -233,7 +236,7 @@ def health():
 
 if __name__ == '__main__':
     # 開發環境啟動
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 5001))
     app.run(
         host='0.0.0.0',
         port=port,

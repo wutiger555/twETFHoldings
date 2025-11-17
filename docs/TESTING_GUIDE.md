@@ -273,7 +273,7 @@ export FLASK_APP=app.main_new
 flask run
 
 # 應該看到：
-# * Running on http://127.0.0.1:5000
+# * Running on http://127.0.0.1:5001
 # * Debug mode: on
 ```
 
@@ -297,7 +297,7 @@ gunicorn --bind 0.0.0.0:5000 --workers 2 --timeout 120 app.main_new:app
 # 在另一個終端機執行
 
 # 測試 1: 健康檢查
-curl http://localhost:5000/health
+curl http://localhost:5001/health
 
 # 應該返回：
 # {
@@ -309,13 +309,13 @@ curl http://localhost:5000/health
 # }
 
 # 測試 2: API 首頁
-curl http://localhost:5000/
+curl http://localhost:5001/
 
 # 應該返回 JSON 格式的歡迎訊息
 
 # 測試 3: API 文件
-open http://localhost:5000/docs/  # macOS
-# 或瀏覽器開啟 http://localhost:5000/docs/
+open http://localhost:5001/docs/  # macOS
+# 或瀏覽器開啟 http://localhost:5001/docs/
 ```
 
 ---
@@ -327,7 +327,7 @@ open http://localhost:5000/docs/  # macOS
 #### 1. 取得 ETF 清單
 
 ```bash
-curl http://localhost:5000/api/v1/etf/etfs | jq
+curl http://localhost:5001/api/v1/etf/etfs | jq
 ```
 
 **預期回應**：
@@ -356,19 +356,19 @@ curl http://localhost:5000/api/v1/etf/etfs | jq
 #### 2. 取得 ETF 持股
 
 ```bash
-curl http://localhost:5000/api/v1/etf/etf/0050/holdings | jq
+curl http://localhost:5001/api/v1/etf/etf/0050/holdings | jq
 ```
 
 #### 3. 取得個股價格
 
 ```bash
-curl http://localhost:5000/api/v1/stock/2330 | jq
+curl http://localhost:5001/api/v1/stock/2330 | jq
 ```
 
 #### 4. 搜尋功能
 
 ```bash
-curl "http://localhost:5000/api/v1/search?q=台積電" | jq
+curl "http://localhost:5001/api/v1/search?q=台積電" | jq
 ```
 
 ### 使用 Postman 測試
@@ -381,14 +381,14 @@ curl "http://localhost:5000/api/v1/search?q=台積電" | jq
 創建一個新的 Collection，加入以下請求：
 
 ```
-GET http://localhost:5000/health
-GET http://localhost:5000/api/v1/etf/etfs
-GET http://localhost:5000/api/v1/etf/etf/0050
-GET http://localhost:5000/api/v1/etf/etf/0050/holdings
-GET http://localhost:5000/api/v1/stock/2330
-GET http://localhost:5000/api/v1/stock/2330/history?period=30d
-GET http://localhost:5000/api/v1/search?q=台積電
-POST http://localhost:5000/api/v1/stock/batch
+GET http://localhost:5001/health
+GET http://localhost:5001/api/v1/etf/etfs
+GET http://localhost:5001/api/v1/etf/etf/0050
+GET http://localhost:5001/api/v1/etf/etf/0050/holdings
+GET http://localhost:5001/api/v1/stock/2330
+GET http://localhost:5001/api/v1/stock/2330/history?period=30d
+GET http://localhost:5001/api/v1/search?q=台積電
+POST http://localhost:5001/api/v1/stock/batch
   Body: {"codes": ["2330", "2317", "2454"]}
 ```
 
@@ -404,11 +404,11 @@ POST http://localhost:5000/api/v1/stock/batch
 import requests
 import json
 
-BASE_URL = "http://localhost:5000/api/v1"
+BASE_URL = "http://localhost:5001/api/v1"
 
 def test_health():
     """測試健康檢查"""
-    response = requests.get("http://localhost:5000/health")
+    response = requests.get("http://localhost:5001/health")
     print(f"健康檢查: {response.status_code}")
     print(json.dumps(response.json(), ensure_ascii=False, indent=2))
 
@@ -490,7 +490,7 @@ docker-compose ps
 docker-compose logs -f backend
 
 # 測試 API
-curl http://localhost:5000/health
+curl http://localhost:5001/health
 ```
 
 ### Step 3: 停止服務
@@ -597,7 +597,7 @@ pip list | grep redis
 redis-cli ping
 
 # 2. 檢查快取狀態
-curl http://localhost:5000/health | jq '.services.redis'
+curl http://localhost:5001/health | jq '.services.redis'
 
 # 3. 手動預載資料
 python -c "
@@ -633,10 +633,10 @@ tail -f logs/scrape_run_*.log
 
 ```bash
 # 第一次請求（應該較慢，從 FinMind 取得）
-time curl http://localhost:5000/api/v1/etf/etfs > /dev/null
+time curl http://localhost:5001/api/v1/etf/etfs > /dev/null
 
 # 第二次請求（應該很快，從快取取得）
-time curl http://localhost:5000/api/v1/etf/etfs > /dev/null
+time curl http://localhost:5001/api/v1/etf/etfs > /dev/null
 
 # 預期：第二次應該快 10 倍以上
 ```
@@ -649,7 +649,7 @@ brew install httpd  # macOS
 sudo apt-get install apache2-utils  # Linux
 
 # 測試 100 個請求
-ab -n 100 -c 10 http://localhost:5000/api/v1/etf/etfs
+ab -n 100 -c 10 http://localhost:5001/api/v1/etf/etfs
 
 # 查看結果
 # Requests per second: XX [#/sec]
@@ -663,7 +663,7 @@ ab -n 100 -c 10 http://localhost:5000/api/v1/etf/etfs
 
 1. ✅ 閱讀 [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) 學習如何部署
 2. ✅ 閱讀 [EXPO_INTEGRATION.md](./EXPO_INTEGRATION.md) 學習如何整合 React Native
-3. ✅ 查看 API 文件：http://localhost:5000/docs/
+3. ✅ 查看 API 文件：http://localhost:5001/docs/
 
 ---
 
@@ -673,36 +673,36 @@ ab -n 100 -c 10 http://localhost:5000/api/v1/etf/etfs
 # 複製以下指令逐一執行
 
 # 1. 健康檢查
-curl http://localhost:5000/health
+curl http://localhost:5001/health
 
 # 2. API 首頁
-curl http://localhost:5000/
+curl http://localhost:5001/
 
 # 3. ETF 清單
-curl http://localhost:5000/api/v1/etf/etfs | jq
+curl http://localhost:5001/api/v1/etf/etfs | jq
 
 # 4. 單一 ETF
-curl http://localhost:5000/api/v1/etf/etf/0050 | jq
+curl http://localhost:5001/api/v1/etf/etf/0050 | jq
 
 # 5. ETF 持股
-curl http://localhost:5000/api/v1/etf/etf/0050/holdings | jq
+curl http://localhost:5001/api/v1/etf/etf/0050/holdings | jq
 
 # 6. 個股資訊
-curl http://localhost:5000/api/v1/stock/2330 | jq
+curl http://localhost:5001/api/v1/stock/2330 | jq
 
 # 7. 個股歷史
-curl http://localhost:5000/api/v1/stock/2330/history?period=30d | jq
+curl http://localhost:5001/api/v1/stock/2330/history?period=30d | jq
 
 # 8. 批次查詢
-curl -X POST http://localhost:5000/api/v1/stock/batch \
+curl -X POST http://localhost:5001/api/v1/stock/batch \
   -H "Content-Type: application/json" \
   -d '{"codes": ["2330", "2317", "2454"]}' | jq
 
 # 9. 搜尋
-curl "http://localhost:5000/api/v1/search?q=台積電" | jq
+curl "http://localhost:5001/api/v1/search?q=台積電" | jq
 
 # 10. 市場統計
-curl http://localhost:5000/api/v1/stats/market | jq
+curl http://localhost:5001/api/v1/stats/market | jq
 
 # 如果所有測試都通過，恭喜！🎉
 # 你的後端已經成功運行了

@@ -55,7 +55,7 @@ mobile/
 // services/api.ts
 const API_BASE_URL =
   process.env.EXPO_PUBLIC_API_URL ||
-  'http://localhost:5000/api/v1';  // 開發環境
+  'http://localhost:5001/api/v1';  // 開發環境
   // 'https://your-api.railway.app/api/v1';  // 生產環境
 ```
 

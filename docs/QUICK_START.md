@@ -75,7 +75,7 @@ python app/services/finmind.py
 
 # 2. 測試 API
 flask --app app.main run
-curl http://localhost:5000/api/v1/etfs
+curl http://localhost:5001/api/v1/etfs
 
 # 3. 設定定時任務
 python app/tasks/scheduler.py

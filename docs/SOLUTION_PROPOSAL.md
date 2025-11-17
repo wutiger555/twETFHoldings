@@ -243,7 +243,7 @@ const StockDetail = () => {
 
   useEffect(() => {
     // 取得個股即時報價
-    fetch(`http://127.0.0.1:5000/live/stock/${stockCode}/quote`)
+    fetch(`http://127.0.0.1:5001/live/stock/${stockCode}/quote`)
       .then(res => res.json())
       .then(data => setStockData(data));
   }, [stockCode]);

@@ -88,7 +88,7 @@ docker run -d -p 6379:6379 redis:7-alpine
 python3 -m flask --app app.main_new run
 
 # 5. 測試 API
-curl http://localhost:5000/health | jq
+curl http://localhost:5001/health | jq
 ```
 
 ### Step 3: 部署到雲端（15 分鐘）

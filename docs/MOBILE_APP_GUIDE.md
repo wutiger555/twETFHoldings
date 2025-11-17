@@ -175,7 +175,7 @@ EXPO_PUBLIC_API_URL=https://your-backend.railway.app/api/v1
 
 ```typescript
 const API_CONFIG = {
-  DEV_URL: 'http://localhost:5000/api/v1',      // 本地開發
+  DEV_URL: 'http://localhost:5001/api/v1',      // 本地開發
   PROD_URL: 'https://your-api.com/api/v1',      // 生產環境
 };
 ```

@@ -180,6 +180,21 @@ LOG_LEVEL=INFO
 
 #### 2.4 啟動後端
 
+##### 方法 1: 使用便捷腳本（推薦）
+
+```bash
+# 使用智能啟動腳本（自動處理端口衝突）
+./run_dev.sh
+```
+
+這個腳本會：
+- ✅ 自動檢查虛擬環境
+- ✅ 自動檢查 Redis 連接
+- ✅ 自動處理 macOS AirPlay 端口衝突
+- ✅ 啟用熱重載
+
+##### 方法 2: 手動啟動
+
 ```bash
 # 確保 Redis 正在運行
 docker ps  # 或 redis-cli ping
@@ -191,10 +206,34 @@ python -m flask --app backend.main run
 python -m flask --app backend.main run --reload
 
 # 預期輸出:
-# * Running on http://127.0.0.1:5000
+# * Running on http://127.0.0.1:5001
 # * Restarting with stat
 # * Debugger is active!
 ```
+
+##### ⚠️ macOS 用戶特別注意
+
+**如果遇到 403 Forbidden 錯誤**，這是因為 macOS Monterey (12.0) 及以上版本的 **AirPlay Receiver** 佔用了 5000 端口。
+
+**快速解決方案：**
+
+1. **關閉 AirPlay Receiver（推薦）**
+   - 打開 **系統設定** (System Settings)
+   - 前往 **通用** > **AirDrop 與接續互通**
+   - 關閉 **AirPlay Receiver**
+   - 重新啟動 Flask
+
+2. **使用便捷腳本**
+   ```bash
+   ./run_dev.sh
+   ```
+   腳本會自動偵測端口衝突並提示解決方案
+
+3. **查看完整說明**
+   ```bash
+   # 詳細的端口衝突解決方案
+   cat docs/MACOS_PORT_5000_FIX.md
+   ```
 
 #### 2.5 驗證後端運行
 
@@ -202,7 +241,7 @@ python -m flask --app backend.main run --reload
 # 開啟新的終端視窗
 
 # 測試健康檢查
-curl http://localhost:5000/health
+curl http://localhost:5001/health
 
 # 預期回應:
 # {
@@ -214,10 +253,11 @@ curl http://localhost:5000/health
 # }
 
 # 測試 API 端點
-curl http://localhost:5000/api/v1/etf/etfs?limit=5 | jq
+curl http://localhost:5001/api/v1/etf/etfs?limit=5 | jq
 
-# 查看 API 文件
-open http://localhost:5000/docs/
+# 查看 Swagger API 文件（正確路徑）
+open http://localhost:5001/api/v1/
+# 注意：Swagger 文件在 /api/v1/ 而不是 /docs/
 ```
 
 ---
@@ -261,7 +301,7 @@ services:
   backend:
     build: .
     ports:
-      - "5000:5000"
+      - "5001:5001"
     environment:
       - FLASK_ENV=development
       - REDIS_URL=redis://redis:6379/0
@@ -300,7 +340,7 @@ docker-compose ps
 docker-compose logs -f backend
 
 # 測試
-curl http://localhost:5000/health
+curl http://localhost:5001/health
 ```
 
 #### 4. Docker 常用命令
@@ -350,22 +390,22 @@ python finmind_example.py
 
 ```bash
 # 1. 健康檢查
-curl http://localhost:5000/health | jq
+curl http://localhost:5001/health | jq
 
 # 2. 取得 ETF 列表
-curl http://localhost:5000/api/v1/etf/etfs?limit=10 | jq
+curl http://localhost:5001/api/v1/etf/etfs?limit=10 | jq
 
 # 3. 取得 ETF 詳情
-curl http://localhost:5000/api/v1/etf/etf/0050 | jq
+curl http://localhost:5001/api/v1/etf/etf/0050 | jq
 
 # 4. 取得 ETF 持股
-curl "http://localhost:5000/api/v1/etf/etf/0050/holdings?enrich_prices=true" | jq
+curl "http://localhost:5001/api/v1/etf/etf/0050/holdings?enrich_prices=true" | jq
 
 # 5. 取得個股價格
-curl http://localhost:5000/api/v1/stock/2330 | jq
+curl http://localhost:5001/api/v1/stock/2330 | jq
 
 # 6. 搜尋
-curl "http://localhost:5000/api/v1/search?q=台積電" | jq
+curl "http://localhost:5001/api/v1/search?q=台積電" | jq
 ```
 
 #### 使用 Python
@@ -374,7 +414,7 @@ curl "http://localhost:5000/api/v1/search?q=台積電" | jq
 # test_api.py
 import requests
 
-BASE_URL = "http://localhost:5000/api/v1"
+BASE_URL = "http://localhost:5001/api/v1"
 
 # 1. 測試 ETF 列表
 response = requests.get(f"{BASE_URL}/etf/etfs", params={"limit": 5})
@@ -396,17 +436,17 @@ print("0050 持股:", response.json())
 
 1. 下載 Postman: https://www.postman.com/downloads/
 2. 導入 API Collection (可以自己建立或使用 Swagger)
-3. 設定 Base URL: `http://localhost:5000/api/v1`
+3. 設定 Base URL: `http://localhost:5001/api/v1`
 4. 測試各個端點
 
 ### 3. 測試快取功能
 
 ```bash
 # 第一次請求 (會呼叫 FinMind API)
-time curl http://localhost:5000/api/v1/etf/etf/0050
+time curl http://localhost:5001/api/v1/etf/etf/0050
 
 # 第二次請求 (應該從快取返回，速度更快)
-time curl http://localhost:5000/api/v1/etf/etf/0050
+time curl http://localhost:5001/api/v1/etf/etf/0050
 
 # 查看 Redis 快取
 redis-cli
@@ -688,7 +728,7 @@ git push origin main
 # 2. 檢查 Docker 配置
 docker-compose build
 docker-compose up -d
-curl http://localhost:5000/health
+curl http://localhost:5001/health
 
 # 3. 停止本地容器
 docker-compose down
@@ -786,7 +826,7 @@ npm install
 
 ```typescript
 const API_CONFIG = {
-  DEV_URL: 'http://localhost:5000/api/v1',
+  DEV_URL: 'http://localhost:5001/api/v1',
   PROD_URL: 'https://your-app.up.railway.app/api/v1',  // 替換為您的 Railway URL
 };
 ```

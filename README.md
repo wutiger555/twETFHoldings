@@ -51,29 +51,43 @@ cp .env.example .env
 docker-compose up -d
 
 # 4. 測試 API
-curl http://localhost:5000/health | jq
+curl http://localhost:5001/health | jq
 
-# 完成！🎉 後端已在 http://localhost:5000 運行
+# 完成！🎉 後端已在 http://localhost:5001 運行
 ```
 
 ### 選項 2: 本地開發
 
 ```bash
 # 1. 安裝 Python 依賴
+python3 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 2. 啟動 Redis
-docker run -d -p 6379:6379 redis:7-alpine
+docker run -d -p 6379:6379 --name redis redis:7-alpine
 
 # 3. 設定環境變數
 cp .env.example .env
 
-# 4. 啟動後端
+# 4. 啟動後端（使用便捷腳本，推薦）
+./run_dev.sh
+
+# 或手動啟動
 python -m flask --app backend.main run
 
 # 5. 測試
-curl http://localhost:5000/health
+curl http://localhost:5001/health
+# 查看 Swagger 文件: http://localhost:5001/api/v1/
 ```
+
+#### ⚠️ macOS 用戶注意
+
+如果遇到 **403 Forbidden** 錯誤，請參考 [macOS 端口衝突解決方案](docs/MACOS_PORT_5000_FIX.md)
+
+**快速解決：**
+- 使用腳本：`./run_dev.sh`（自動處理端口衝突）
+- 或關閉 AirPlay Receiver（系統設定 → 通用 → AirDrop 與接續互通）
 
 ### 選項 3: 測試 FinMind API
 
@@ -242,7 +256,7 @@ docker run -d -p 6379:6379 redis:7-alpine
 python -m flask --app backend.main run
 
 # 測試 API
-curl http://localhost:5000/api/v1/etf/etfs
+curl http://localhost:5001/api/v1/etf/etfs
 ```
 
 ### 2. Docker 容器化
@@ -289,7 +303,7 @@ npx create-expo-app@latest tw-etf-app
 | `GET /api/v1/search` | 搜尋 | `?q=台積電&type=STOCK` |
 | `GET /api/v1/stats/popular` | 熱門股票 | `?limit=20` |
 
-**完整 API 文件**: 啟動後端後訪問 `http://localhost:5000/docs/`
+**完整 API 文件**: 啟動後端後訪問 `http://localhost:5001/docs/`
 
 ---
 
@@ -418,7 +432,7 @@ MIT License - 詳見 [LICENSE](LICENSE) 檔案
 #### 🚀 快速路徑 (有經驗)
 
 1. **Docker 啟動**: `docker-compose up -d`
-2. **測試 API**: `curl http://localhost:5000/health`
+2. **測試 API**: `curl http://localhost:5001/health`
 3. **部署**: 參考 [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)
 4. **開發 App**: 參考 [MOBILE_APP_GUIDE.md](./docs/MOBILE_APP_GUIDE.md)
 
