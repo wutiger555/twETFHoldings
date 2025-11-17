@@ -3,7 +3,7 @@ ETF API 路由
 提供 ETF 相關的 RESTful API
 """
 
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, current_app
 from flask_restx import Namespace, Resource, fields
 import logging
 
@@ -114,7 +114,7 @@ class ETFList(Resource):
 
             if not etfs:
                 logger.info("快取未命中，從 FinMind 取得 ETF 清單")
-                client = FinMindClient()
+                client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
                 etfs = client.get_all_etfs()
                 cache.set(CacheKeys.ETF_LIST, etfs, CacheTTL.DAY_1)
 
@@ -147,7 +147,7 @@ class ETFDetail(Resource):
             etfs = cache.get(CacheKeys.ETF_LIST)
 
             if not etfs:
-                client = FinMindClient()
+                client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
                 etfs = client.get_all_etfs()
                 cache.set(CacheKeys.ETF_LIST, etfs, CacheTTL.DAY_1)
 
@@ -183,7 +183,7 @@ class ETFHoldings(Resource):
 
             if not holdings:
                 logger.info(f"快取未命中，從 FinMind 取得 {code} 持股")
-                client = FinMindClient()
+                client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
                 holdings = client.get_etf_holdings(code, date=date)
 
                 if not holdings:
@@ -193,7 +193,7 @@ class ETFHoldings(Resource):
 
             # 如果需要附加價格
             if enrich_prices and holdings:
-                client = FinMindClient()
+                client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
                 stock_codes = list(set([h.get('stock_id') for h in holdings]))
                 prices = client.get_batch_prices(stock_codes[:50])  # 限制 50 檔
 

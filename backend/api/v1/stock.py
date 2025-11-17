@@ -3,7 +3,7 @@
 提供個股價格、歷史資料、技術指標等功能
 """
 
-from flask import request
+from flask import request, current_app
 from flask_restx import Namespace, Resource, fields
 import logging
 
@@ -76,7 +76,7 @@ class StockDetail(Resource):
 
             if not stock_data:
                 logger.info(f"快取未命中，從 FinMind 取得 {code}")
-                client = FinMindClient()
+                client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
                 price_data = client.get_latest_price(code)
 
                 if not price_data:
@@ -137,7 +137,7 @@ class StockHistory(Resource):
 
             if not history:
                 logger.info(f"快取未命中，從 FinMind 取得 {code} 歷史資料")
-                client = FinMindClient()
+                client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
                 history = client.get_stock_price(code, days=days)
 
                 if not history:
@@ -200,7 +200,7 @@ class StockBatch(Resource):
             if len(codes) > 50:
                 error_response("單次最多查詢 50 檔股票", 400)
 
-            client = FinMindClient()
+            client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
             prices = client.get_batch_prices(codes, days=1)
 
             result = []

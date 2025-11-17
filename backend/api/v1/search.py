@@ -3,7 +3,7 @@
 提供全域搜尋功能
 """
 
-from flask import request
+from flask import request, current_app
 from flask_restx import Namespace, Resource, fields
 import logging
 
@@ -54,7 +54,8 @@ def build_search_index():
         logger.info("建立搜尋索引...")
 
         # 從 FinMind 取得所有股票/ETF
-        client = FinMindClient()
+        from flask import current_app
+        client = FinMindClient(current_app.config.get('FINMIND_TOKEN'))
         all_stocks = client.get_all_taiwan_stocks()
 
         # 建立索引
